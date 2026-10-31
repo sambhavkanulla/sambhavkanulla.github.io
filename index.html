@@ -15,7 +15,7 @@ title: "Product Leader"
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11.5V16c0 1.4 2.7 3 6 3s6-1.6 6-3v-4.5"/><path d="M22 9v6"/></svg>
     {% for e in p.education %}<span>{{ e }}</span>{% endfor %}
   </p>
-  <p class="statement">{{ p.headline }}</p>
+  {% if p.headline != "" %}<p class="statement">{{ p.headline }}</p>{% endif %}
   {% if p.subheadline != "" %}<p class="lead">{{ p.subheadline }}</p>{% endif %}
   <p class="cta-row">
     {% if p.resume_file != "" %}<a class="btn" href="{{ p.resume_file | relative_url }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7 11l5 5 5-5"/><path d="M5 20h14"/></svg>Resume (PDF)</a>{% endif %}
