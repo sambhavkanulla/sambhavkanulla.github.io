@@ -363,3 +363,8 @@ main > section.area > h2 { align-items: center; }
 .ph-hero .edu { margin-top: 14px; }
 .ph-hero .name { margin: 0; }
 .ph-hero .rule { margin: 26px 0 24px; }
+
+.ph-number { position: relative; }
+.ph-num-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+.ph-num-top .dir { position: static; }
+@media (max-width: 760px) { .ph-num-top { margin-bottom: 10px; } .ph-num-top .ico { width: 34px; height: 34px; border-radius: 10px; } .ph-num-top .ico svg { width: 18px; height: 18px; } }

@@ -26,7 +26,15 @@ permalink: /
 </section>
 
 <div class="ph-numbers">
-  {% for n in L.numbers %}<div class="ph-number"><div class="ph-num-value">{{ n.value }}</div><div class="ph-num-label">{{ n.label }}</div></div>{% endfor %}
+  {% for n in L.numbers %}
+  <div class="ph-number">
+    <div class="ph-num-top">
+      <span class="ico tone-{{ n.tone }}" aria-hidden="true">{% include icon.html name=n.icon %}</span>
+      {% if n.tone == "up" %}<span class="dir dir-up" title="Increased">&#9650;</span>{% elsif n.tone == "down" %}<span class="dir dir-down" title="Reduced">&#9660;</span>{% elsif n.tone == "save" %}<span class="dir dir-save" title="Saved">&#10003;</span>{% endif %}
+    </div>
+    <div class="ph-num-value">{{ n.value }}</div>
+    <div class="ph-num-label">{{ n.label }}</div>
+  </div>{% endfor %}
 </div>
 
 <section class="ph-section">

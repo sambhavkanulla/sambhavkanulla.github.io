@@ -11,16 +11,27 @@ bio:
   - "I grow commerce brands fast, solving 80% of the problem with 20% of the effort, and I build lean product and tech teams that keep delivering."
   - "Today I lead a 28-member product and tech pod of product managers, analysts, designers, developers and QAs. We build growth products for 4 D2C brands and operations technology for 8, working directly with founders, C-suite and growth leaders of each brand on product strategy and the tech roadmap."
 
+# icon: trend | chart | coin | unlock | support | clock | box | ticket ; tone: up | down | save | scale
 numbers:
   - value: "7x"
+    icon: "trend"
+    tone: "up"
     label: "sales growth in 3 quarters"
   - value: "3x"
+    icon: "chart"
+    tone: "up"
     label: "revenue growth for a D2C fashion brand"
   - value: "-90%"
+    icon: "support"
+    tone: "down"
     label: "customer support tickets"
   - value: "₹3 Cr"
+    icon: "coin"
+    tone: "save"
     label: "saved in logistics costs (about $300k)"
   - value: "2.5M+"
+    icon: "box"
+    tone: "scale"
     label: "orders a day on products I owned"
 
 competencies:
