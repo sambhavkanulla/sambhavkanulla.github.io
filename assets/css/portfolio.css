@@ -104,7 +104,8 @@ main > section > h2.impact-title { margin: 0 0 22px; }
 .impact-title { margin: 40px 0 16px; }
 .proof-label { font-size: 0.9rem; color: var(--muted); margin-top: 8px; line-height: 1.45; }
 
-.proof-top { display: flex; align-items: center; gap: 12px; }
+.proof-top { display: flex; align-items: center; gap: 8px 12px; flex-wrap: wrap; }
+.proof-value { white-space: nowrap; }
 .ico { flex: none; width: 42px; height: 42px; border-radius: 12px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--line-strong); background: linear-gradient(145deg, #202024, #131316); color: var(--accent); box-shadow: inset 0 1px 0 rgba(255,255,255,0.06); }
 .ico svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 .ico.tone-up, .ico.tone-down, .ico.tone-save { color: #86e0a8; border-color: rgba(134, 224, 168, 0.35); background: linear-gradient(145deg, rgba(134,224,168,0.16), rgba(134,224,168,0.04)); }
