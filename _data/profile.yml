@@ -33,32 +33,24 @@ linkedin: "https://www.linkedin.com/in/sambhavkanulla/"
 # Resume button. Leave as "" to hide the button.
 resume_file: "/Sambhav_Kanulla_Resume.pdf"
 
-# Impact highlight cards on the Home page (value, label, and where it happened)
+# Impact highlight cards on the Home page (a big number and what it means)
 impact:
   - value: "7x"
-    label: "sales growth in 3 quarters after the WOW launch"
-    source: "Coupang Eats"
+    label: "sales growth in 3 quarters"
   - value: "3x"
-    label: "revenue growth for the WROGN brand"
-    source: "TMRW"
+    label: "revenue growth for a D2C fashion brand"
   - value: "₹3 Cr"
-    label: "saved in 3PL costs (about $300k)"
-    source: "TMRW"
+    label: "saved in logistics costs (about $300k)"
   - value: "32%"
     label: "working capital released through inventory planning"
-    source: "Purplle"
   - value: "-90%"
-    label: "customer support tickets after the Post Order launch"
-    source: "TMRW"
+    label: "customer support tickets"
   - value: "-12 min"
-    label: "average delivery time with Optimized Delivery"
-    source: "Coupang Eats"
+    label: "average delivery time"
   - value: "2.5M+"
     label: "orders a day on products I owned"
-    source: "Coupang Eats"
   - value: "6M+"
-    label: "JioPhone vouchers and leads managed"
-    source: "Reliance Jio"
+    label: "launch vouchers and leads managed"
 
 # The About page
 about:
