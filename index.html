@@ -10,6 +10,13 @@ permalink: /
   <h1 class="ph-name">{{ p.name }}</h1>
   {% if L.headline != "" %}<p class="ph-headline">{{ L.headline }}</p>{% endif %}
   <p class="ph-philosophy">{{ L.philosophy }}</p>
+  <ul class="domains ph-domains" aria-label="Domain areas">
+    {% for line in p.keywords %}{% assign parts = line | split: "|" %}{% for part in parts %}<li>{{ part | strip }}</li>{% endfor %}{% endfor %}
+  </ul>
+  <p class="edu">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11.5V16c0 1.4 2.7 3 6 3s6-1.6 6-3v-4.5"/><path d="M22 9v6"/></svg>
+    {% for e in p.education %}<span>{{ e }}</span>{% endfor %}
+  </p>
   <p class="cta-row">
     {% if p.resume_file != "" %}<a class="btn" href="{{ p.resume_file | relative_url }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7 11l5 5 5-5"/><path d="M5 20h14"/></svg>Resume (PDF)</a>{% endif %}
     <a class="btn btn-ghost" href="mailto:{{ p.email }}"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Email</a>
