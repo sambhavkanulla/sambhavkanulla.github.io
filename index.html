@@ -4,6 +4,20 @@ title: "Product Leader"
 ---
 {% assign p = site.data.profile %}
 
+<section class="hero">
+  <h1 class="name">{{ p.name }}</h1>
+  <p class="role-box">{{ p.role }}</p>
+  <hr class="rule">
+  <p class="keywords">{% for k in p.keywords %}<span>{{ k }}</span>{% endfor %}</p>
+  <p class="statement">{{ p.headline }}</p>
+  <p class="lead">{{ p.subheadline }}</p>
+  <p class="cta-row">
+    {% if p.resume_file != "" %}<a class="btn" href="{{ p.resume_file | relative_url }}">Download resume (PDF)</a>{% endif %}
+    <a class="btn btn-ghost" href="{{ '/case-studies/' | relative_url }}">Case Studies</a>
+    <a class="btn btn-ghost" href="{{ p.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+  </p>
+</section>
+
 <section id="contact" class="contact">
   <h2>Contact</h2>
   <p class="lead">The best way to reach me is email or LinkedIn.</p>
