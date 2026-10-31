@@ -17,17 +17,17 @@ metrics:
     label: "average order value"
 ---
 
-## Context
+## The challenge
 
 These are two D2C fashion brands with about $3.5M (₹30 Cr) in revenue. I built their web conversion funnel products, platform tools and growth hacks.
 
-## What I built
+## What I did
 
 - Web **conversion funnel** products
 - **Platform tools** reused across the brand portfolio
 - **Growth hacks** tested through A/B experiments
 
-## Results
+## The outcome
 
 - Revenue up 2x
 - Conversion up 23%

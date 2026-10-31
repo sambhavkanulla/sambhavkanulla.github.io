@@ -17,16 +17,16 @@ metrics:
     label: "mis-deliveries"
 ---
 
-## Context
+## The challenge
 
 Drivers contacted support for settlement and order information, and some deliveries went to the wrong place. I rebuilt the accounting and settlement modules and redesigned the driver UI.
 
-## What I built
+## What I did
 
 - Rebuilt **accounting and settlement** modules with self-help features, faster onboarding, order information access and daily settlement details
 - Redesigned **driver UI** with location-based pickup and drop-off constraints, following the ideas in Steve Krug's *Don't Make Me Think*
 
-## Results
+## The outcome
 
 - Delivery CX queries down 64% and 35 support staff saved
 - Mis-deliveries down 78%

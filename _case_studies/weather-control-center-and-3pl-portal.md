@@ -17,16 +17,16 @@ metrics:
     label: "weather response time"
 ---
 
-## Context
+## The challenge
 
 Bad weather and driver shortages are the main threats to a hyperlocal delivery service. I built an internal Weather Control Center and a 3PL vendor portal with a custom driver app.
 
-## What I built
+## What I did
 
 - An internal **Weather Control Center** so operations can trigger weather response actions in under 2 minutes
 - A **3PL Vendor Portal** and custom **Driver App** for third-party vendors and their drivers
 
-## Results
+## The outcome
 
 - Stable rider supply and about 30% fewer delivery delays
 - Delivery supply up more than 60%

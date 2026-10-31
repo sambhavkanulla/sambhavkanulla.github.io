@@ -19,11 +19,11 @@ metrics:
     label: "revenue from the new mobile app"
 ---
 
-## Context
+## The challenge
 
 This is a fashion D2C brand within a house of brands. I lead the pod that builds its conversion funnel: landing page, listing and product pages, cart, checkout and app installs. Almost every feature was A/B tested before launch.
 
-## What I owned
+## What I did
 
 - The end-to-end web and app funnel products, platform tools and growth hacks
 - The **iOS and Android app** launch
@@ -32,17 +32,17 @@ This is a fashion D2C brand within a house of brands. I lead the pod that builds
 
 <!-- ADD: the key problems you found in the funnel and which experiments moved the numbers most. -->
 
-## Approach
+## How I went about it
 
 <!-- ADD: how you prioritised experiments, how you worked with the brand's founders and growth leaders, what you tested and what failed. -->
 
-## Results
+## The outcome
 
 - Online business: revenue 3x, conversion 2x, AOV up 32%
 - App launch: orders up 20%+, revenue up 25%, conversion 2x, customer retention 4x
 - Special-collection pages: conversion 2x, AOV up 30%
 - Flash Sale suite: revenue 4x, ROAS 3x during sale events
 
-## What I would do differently
+## What I learned
 
 <!-- ADD: one or two honest lessons. -->

@@ -15,15 +15,15 @@ metrics:
     label: "award"
 ---
 
-## Context
+## The challenge
 
 Covid-19 rules changed what could be sold and shipped. I led the organization-wide compliance transformation.
 
-## What I built
+## What I did
 
 - Product, category and supply chain changes, championed end to end
 
-## Results
+## The outcome
 
 - Changes shipped within 2 days
 - Life-saver award for leading the org-wide product transformation

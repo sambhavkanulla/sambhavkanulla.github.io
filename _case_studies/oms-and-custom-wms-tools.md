@@ -17,16 +17,16 @@ metrics:
     label: "warehouse processing time"
 ---
 
-## Context
+## The challenge
 
 The brands run on leading third-party OMS, WMS, LMS and RMS partners. I integrated closely with them for order routing and allocation, warehouse, inventory, logistics and returns management, then built products on top to improve the customer experience.
 
-## What I built
+## What I did
 
 - An internal **Order Management System (OMS)** for post-order tracking, management and orchestration, also used for post-game and root-cause analysis of customer order issues
 - **Custom WMS tools** that close process gaps in warehouse and inventory management inherited from third-party systems and integrations
 
-## Results
+## The outcome
 
 - Customer support turnaround cut to 10 minutes and CSAT up to 87%
 - Warehouse processing time down 80%

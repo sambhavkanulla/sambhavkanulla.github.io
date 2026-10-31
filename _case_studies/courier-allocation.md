@@ -15,15 +15,15 @@ metrics:
     label: "logistics time improvement"
 ---
 
-## Context
+## The challenge
 
 Each shipment can go with several couriers at different costs. I built and optimized a courier allocation algorithm.
 
-## What I built
+## What I did
 
 - A **courier allocation algorithm** based on cost calculation logic using weight and volume
 
-## Results
+## The outcome
 
 - 3PL delivery cost down 23%
 - 35% improvement in logistics time

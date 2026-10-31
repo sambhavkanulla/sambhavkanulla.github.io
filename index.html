@@ -35,8 +35,7 @@ title: "Product Leader"
   <div class="cards">
     {% for cs in studies %}{% if cs.featured %}
     <a class="card" href="{{ cs.url | relative_url }}">
-      <p class="eyebrow">{{ cs.period }}</p>
-      <h3>{{ cs.title }}</h3>
+        <h3>{{ cs.title }}</h3>
       <p>{{ cs.tagline }}</p>
       {% if cs.metrics %}<p class="card-metric"><strong>{{ cs.metrics[0].value }}</strong> {{ cs.metrics[0].label }}</p>{% endif %}
     </a>

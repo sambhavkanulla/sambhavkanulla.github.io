@@ -13,16 +13,16 @@ metrics:
     label: "revenue leakage saved"
 ---
 
-## Context
+## The challenge
 
 Some customers exploit post-order flows such as returns and refunds. I monitored these cases and blocked fraudsters.
 
-## What I built
+## What I did
 
 - Monitoring of **post-order fraud** patterns
 - Blocking of repeat fraudsters
 
-## Results
+## The outcome
 
 - Saved 85% of revenue leakage from post-order fraud
 

@@ -13,15 +13,15 @@ metrics:
     label: "orders per day at pilot locations"
 ---
 
-## Context
+## The challenge
 
 Faster delivery was a growth lever for the business. I conceptualized and launched same-day and next-day delivery capabilities.
 
-## What I built
+## What I did
 
 - **Same-day and next-day** delivery capability, launched at pilot locations
 
-## Results
+## The outcome
 
 - Orders per day up 17% at pilot locations
 

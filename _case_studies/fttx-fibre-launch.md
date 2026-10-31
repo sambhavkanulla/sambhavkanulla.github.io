@@ -17,18 +17,18 @@ metrics:
     label: "serial number visibility"
 ---
 
-## Context
+## The challenge
 
 FTTx is a fibre-to-the-home service. Launching it meant coordinating device supply, installation and payments across many teams.
 
-## What I built
+## What I did
 
 - **Order aggregation, fulfilment and work-order** workflows across 15+ products and teams
 - **Work orders, service engineer issuance** and inventory capitalization for devices and consumables
 - End-to-end **supply chain and payment** processes including partner issuance and off-platform sales
 - **SIM and FTTx kitting** with sub-contractors for home installation
 
-## Results
+## The outcome
 
 - Launch supported for 50k+ FTTx devices
 - 100% serial number visibility and shipment tracking

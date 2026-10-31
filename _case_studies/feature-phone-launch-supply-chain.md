@@ -19,11 +19,11 @@ metrics:
     label: "operational activity time at retail points"
 ---
 
-## Context
+## The challenge
 
 This was India's first 4G feature phone, built for rural India and one of the country's most awaited launches. It began as a voucher- and invite-based launch, with several variants from multiple vendors.
 
-## What I owned
+## What I did
 
 - Voucher-based interest and invite aggregation, variant-inventory allocation and supply chain for 6M+ phones, from procurement to activation, pan India
 - Order management for 6M+ vouchers and leads, with a pull strategy by pin code
@@ -37,10 +37,10 @@ This was India's first 4G feature phone, built for rural India and one of the co
 - **Store super apps:** one for retail points and one for regional centers, built for low-spec devices, cutting operational activity time by 83% at retail points
 - **Onboarding:** automated authorization and onboarding for 1M+ supply-chain users, with access assigned in under 5 hours
 
-## Approach
+## How I went about it
 
 <!-- ADD: how you worked with vendors, ops and the launch team under a fixed date. -->
 
-## What I would do differently
+## What I learned
 
 <!-- ADD: one or two honest lessons. -->

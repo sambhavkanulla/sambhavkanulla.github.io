@@ -15,18 +15,18 @@ metrics:
     label: "purchase to delivery pan India"
 ---
 
-## Context
+## The challenge
 
 Retail points are rural and urban stores and regional centers are offices. They needed a simple way to run daily store operations.
 
-## What I built
+## What I did
 
 - A retail store **super app**: one app for retail points and one for regional centers, optimized for low-spec devices
 - **Lean management** techniques applied to store operations
 - Onboarding of 1,100+ stores in rural India and a complete offline business for a large retailer
 - The go-to-market strategy and super app for the **merchant POS**
 
-## Results
+## The outcome
 
 - 83% less operational activity time for retail points
 - 3-day turnaround from purchase to delivery pan India

@@ -19,11 +19,11 @@ metrics:
     label: "delayed tail-end deliveries"
 ---
 
-## Context
+## The challenge
 
 I owned the order-driver assignment algorithm and the delivery products for 200k+ drivers. The company's loyalty program, with 14M+ users, was a major growth lever for the delivery service.
 
-## What I owned
+## What I did
 
 - **Assignment algorithm:** revamped driver search and allocation for speed and cost
 - **Optimized Delivery:** ideated, designed and implemented the product
@@ -31,11 +31,11 @@ I owned the order-driver assignment algorithm and the delivery products for 200k
 
 <!-- ADD: how Optimized Delivery works at a high level, the main trade-off (speed vs. cost, early vs. late deliveries), and how you tested it. -->
 
-## Approach
+## How I went about it
 
 <!-- ADD: key decisions, trade-offs and how you rolled it out. -->
 
-## Results
+## The outcome
 
 - Delayed tail-end deliveries down 16%, using drivers freed from early deliveries
 - Pickup and drop-off time improved by 5 minutes with driver behavioural features
@@ -43,6 +43,6 @@ I owned the order-driver assignment algorithm and the delivery products for 200k
 - Re-skinned as Free Delivery for loyalty members, with 70%+ customer opt-in
 - Sales up 7x in 3 quarters after the loyalty launch
 
-## What I would do differently
+## What I learned
 
 <!-- ADD: one or two honest lessons. -->

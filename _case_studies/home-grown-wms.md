@@ -17,17 +17,17 @@ metrics:
     label: "packaging time"
 ---
 
-## Context
+## The challenge
 
 The business needed a warehouse system that could handle D2C fulfilment at speed and survive sale surges of 7x orders. I built a WMS from scratch.
 
-## What I built
+## What I did
 
 - A complete **home-grown WMS** for D2C order fulfilment
 - **Lean management** techniques to aggregate and optimize fulfilment processes
 - **One-touch shipment packaging** portals with automation
 
-## Results
+## The outcome
 
 - Order-to-dispatch time down 73.6% and operational capacity up to 4x
 - Overall packaging time down 23%

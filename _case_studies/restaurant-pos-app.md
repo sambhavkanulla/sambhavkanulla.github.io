@@ -19,11 +19,11 @@ metrics:
     label: "orders per day from coupons"
 ---
 
-## Context
+## The challenge
 
 I owned the web and mobile product suite for 350k+ restaurants processing 2M+ orders a day.
 
-## What I built
+## What I did
 
 - A revamped **merchant POS app**
 - **Rider location notifications** in the POS to cut rider wait
@@ -31,7 +31,7 @@ I owned the web and mobile product suite for 350k+ restaurants processing 2M+ or
 - **Customer visibility** features for cohort-based service
 - **1-click coupon templates** for store coupon issuance
 
-## Results
+## The outcome
 
 - 98.7% order completion and 75% less new-store training time
 - Rider wait down 26% and delivery accuracy up 34% with Busy mode

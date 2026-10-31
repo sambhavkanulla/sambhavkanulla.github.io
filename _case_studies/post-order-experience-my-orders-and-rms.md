@@ -19,7 +19,7 @@ metrics:
     label: "CSAT (up to)"
 ---
 
-## Context
+## The challenge
 
 After checkout, the experience splits into tracking, communication, cancellations, returns, exchanges and refunds. In D2C these drive most support tickets and 3PL cost. I built it for the group's brands as one connected product, not separate features.
 
@@ -41,17 +41,17 @@ After checkout, the experience splits into tracking, communication, cancellation
 
 <!-- ADD: the hardest integration or edge case, e.g. refunds, partial returns, third-party logistics or storefront-platform constraints. Confirm which third-party OMS, WMS, LMS and logistics partners this platform actually connects to before naming any. -->
 
-## Approach
+## How I went about it
 
 <!-- ADD: build vs. buy reasoning, how you phased the launch across brands, how you measured ticket reduction. -->
 
-## Results
+## The outcome
 
 - CX tickets down 90%
 - ₹3 Cr (about $300k) saved in 3PL costs, with more efficient returns and refunds
 - CX turnaround down to 10 minutes, CSAT up to 87% with the OMS tool
 - 85% of post-order fraud revenue leakage saved
 
-## What I would do differently
+## What I learned
 
 <!-- ADD: one or two honest lessons. -->

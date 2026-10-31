@@ -17,17 +17,17 @@ metrics:
     label: "scanning speed"
 ---
 
-## Context
+## The challenge
 
 A large retail supply chain handled 10M+ inventory movements and sales a day across thousands of sites.
 
-## What I built
+## What I did
 
 - Configured, customized and implemented auto **forecasting and replenishment** using enterprise ERP modules for materials management, MRP and forecasting and replenishment
 - System-based **physical and perpetual inventory** processes with linked write-off and write-in steps ending in book-of-accounts updates
 - Device-agnostic **inventory audit** processes for retail stores, with optimized scanning on portable devices
 
-## Results
+## The outcome
 
 - Saved $35k (₹33 lakh) per month in planning and working-capital costs
 - Planning accuracy improved to 10 days of inventory

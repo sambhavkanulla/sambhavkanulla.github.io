@@ -19,11 +19,11 @@ metrics:
     label: "orders per day"
 ---
 
-## Context
+## The challenge
 
 Fast delivery needs serviceability checks, order routing, warehousing and logistics to work together. I led the products that connect them, integrating with leading third-party OMS, WMS, LMS and RMS partners.
 
-## What I owned
+## What I did
 
 - Same-day, next-day and 2-hour delivery, from pre-order serviceability to post-order fulfilment
 - Integrations and API flows across order routing, warehouse and logistics management
@@ -31,17 +31,17 @@ Fast delivery needs serviceability checks, order routing, warehousing and logist
 
 <!-- ADD: the design of the serviceability check and how orders are routed to the right node. -->
 
-## Approach
+## How I went about it
 
 <!-- ADD: key trade-offs (cost vs. speed, coverage vs. accuracy), pilot cities, and how you rolled out. -->
 
-## Results
+## The outcome
 
 - 70% of orders on fast-delivery fulfilment pan India, with 89%+ EDD accuracy
 - RTO down 83%
 - Bangalore: 40% of orders by 2-hour dark-store delivery, 95% EDD accuracy, orders per day up 15%
 - Custom WMS tools cut processing time by 80%
 
-## What I would do differently
+## What I learned
 
 <!-- ADD: one or two honest lessons. -->

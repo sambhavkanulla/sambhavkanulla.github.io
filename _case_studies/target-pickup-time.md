@@ -19,27 +19,27 @@ metrics:
     label: "ETA accuracy"
 ---
 
-## Context
+## The challenge
 
 This is South Korea's fastest food delivery service. I led restaurant and delivery efficiency products across 2.5M+ orders a day, 200k+ drivers and 350k+ restaurants.
 
-## What I owned
+## What I did
 
 - A common **Target Pickup Time** that drivers and restaurants both work to
 - ML-based **Prep Time Guidance**, built with data science models, to help restaurants plan preparation
 
 <!-- ADD (optional): the specific problem you saw in the data, e.g. how long drivers were waiting before this. Keep it to what you can share publicly. -->
 
-## Approach
+## How I went about it
 
 <!-- ADD: 3-4 bullets on the key decisions and trade-offs. What options did you consider? What did you reject and why? How did you work with data science and ops? -->
 
-## Results
+## The outcome
 
 - Restaurant pickup wait down 34%, driver wait down 26%
 - Delivery 9 minutes faster, ETA accuracy up 27%
 - Korean patent applied for the ML prep-time guidance product
 
-## What I would do differently
+## What I learned
 
 <!-- ADD: one or two honest lessons. This section is what makes a Director-level case study stand out. -->

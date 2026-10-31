@@ -15,16 +15,16 @@ metrics:
     label: "ROAS (revenue on ad spend)"
 ---
 
-## Context
+## The challenge
 
 Brands run occasional sale events that need to go live and end quickly without engineering work. I built a Flash Sale suite of products that goes live with a single toggle.
 
-## What I built
+## What I did
 
 - A **Flash Sale suite** that a brand turns on with one toggle
 - A multi-tenant design so every brand can use it
 
-## Results
+## The outcome
 
 - About 4x added revenue during sale events
 - 3x ROAS (revenue on ad spend)

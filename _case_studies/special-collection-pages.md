@@ -15,16 +15,16 @@ metrics:
     label: "average order value"
 ---
 
-## Context
+## The challenge
 
 Special and premium collections, such as sports jerseys and campaign drops, need to feel different from a standard catalog page. I built a custom product detail page for them.
 
-## What I built
+## What I did
 
 - A custom **vertical-scroll product detail page (PDP)** for special and premium collections
 - Implemented for sports jersey drops, campaign collections and similar launches
 
-## Results
+## The outcome
 
 - Conversion up 2x
 - Average order value up 30%

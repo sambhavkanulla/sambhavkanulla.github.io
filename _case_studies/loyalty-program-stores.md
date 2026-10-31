@@ -17,17 +17,17 @@ metrics:
     label: "orders per store"
 ---
 
-## Context
+## The challenge
 
 The company's loyalty program needed its own store set. Restaurants had to be picked for the loyalty offering and then settled correctly. I strategized, designed and built store selection, accounting and settlement products for it.
 
-## What I built
+## What I did
 
 - Automated **store selection** for the loyalty offering
 - Rebuilt **accounting and settlement** modules for restaurants
 - Catalog and store management features with easy coupon issuance
 
-## Results
+## The outcome
 
 - Automation saved 3,000 man-hours per day
 - Restaurant support calls down 42%

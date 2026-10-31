@@ -17,17 +17,17 @@ metrics:
     label: "close-to-expiry stock and return costs released"
 ---
 
-## Context
+## The challenge
 
 Beauty products have shelf lives, so inventory planning decides both cash and waste. I rebuilt the end-to-end inventory products for demand planning, procurement, inventory and return to vendor.
 
-## What I built
+## What I did
 
 - Redesigned **inventory management logic**, with inward freshness and **FEFO** fulfilment to keep maximum shelf life
 - **Lean demand planning** logic in the planning tools
 - **Auto-replenishment** to replace manual PO planning and creation
 
-## Results
+## The outcome
 
 - Released 41.7% of close-to-expiry inventory and return-to-vendor cost
 - Released 32% of working capital

@@ -3,20 +3,8 @@ layout: default
 ---
 <article class="case">
   <p class="crumb"><a href="{{ '/case-studies/' | relative_url }}">&larr; All case studies</a></p>
-  <p class="eyebrow">{{ page.period }}</p>
   <h1>{{ page.title }}</h1>
   <p class="lead">{{ page.tagline }}</p>
-
-  {% if page.metrics %}
-  <div class="metrics">
-    {% for m in page.metrics %}
-    <div class="metric">
-      <div class="metric-value">{{ m.value }}</div>
-      <div class="metric-label">{{ m.label }}</div>
-    </div>
-    {% endfor %}
-  </div>
-  {% endif %}
 
   <dl class="facts">
     <div><dt>My role</dt><dd>{{ page.role }}</dd></div>
@@ -27,6 +15,18 @@ layout: default
   <div class="prose">
     {{ content }}
   </div>
+
+  {% if page.metrics %}
+  <h2>The outcome in numbers</h2>
+  <div class="metrics">
+    {% for m in page.metrics %}
+    <div class="metric">
+      <div class="metric-value">{{ m.value }}</div>
+      <div class="metric-label">{{ m.label }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
 
   <p class="crumb"><a href="{{ '/case-studies/' | relative_url }}">&larr; All case studies</a></p>
 </article>

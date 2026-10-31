@@ -15,15 +15,15 @@ metrics:
     label: "authorization assignment"
 ---
 
-## Context
+## The challenge
 
 Every supply chain user needed an ID and the right access in several systems before they could work.
 
-## What I built
+## What I did
 
 - **Automated onboarding and authorization**: automatic ID creation and authorization into all relevant systems and job roles
 
-## Results
+## The outcome
 
 - Authorization assignment during onboarding cut to under 5 hours for 1M+ users
 
