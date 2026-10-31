@@ -12,7 +12,7 @@
 <body>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.data.profile.name }} - home" title="{{ site.data.profile.name }}"><span class="monogram">{% assign parts = site.data.profile.name | split: " " %}{{ parts.first | slice: 0 }}{{ parts.last | slice: 0 }}</span></a>
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.data.profile.name }} - home" title="{{ site.data.profile.name }}"><span class="monogram">{% assign parts = site.data.profile.name | split: " " %}{{ parts.first | slice: 0 }}{{ parts.last | slice: 0 }}</span><span class="brand-name">{{ site.data.profile.name }}</span></a>
       <nav class="nav">
         <a href="{{ '/case-studies/' | relative_url }}"{% if page.url contains '/case-studies/' %} class="active" aria-current="page"{% endif %}>Case studies</a>
         <a href="{{ '/experience/' | relative_url }}"{% if page.url contains '/experience/' %} class="active" aria-current="page"{% endif %}>Experience</a>
@@ -34,5 +34,12 @@
     </div>
   </footer>
   <script src="{{ '/assets/js/areas.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+<script>
+(function () {
+  var b = document.body, h = document.querySelector('.ph-hero .name, .hero .name');
+  if (!h || !('IntersectionObserver' in window)) { b.classList.add('show-name'); return; }
+  new IntersectionObserver(function (e) { b.classList.toggle('show-name', !e[0].isIntersecting); }, { rootMargin: '-64px 0px 0px 0px' }).observe(h);
+})();
+</script>
 </body>
 </html>

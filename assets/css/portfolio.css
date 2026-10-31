@@ -392,3 +392,15 @@ main > section.area > h2 { align-items: center; }
   body { padding-bottom: 76px; }
 }
 @media (max-width: 760px) { .dock .pdf-tag { display: none; } .dock .btn { white-space: nowrap; } }
+
+/* sticky header carries the name; on the home page it fades in once the hero name scrolls away */
+.site-header { position: sticky !important; top: 0; }
+.brand { display: inline-flex; align-items: center; gap: 12px; }
+.brand-name { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; white-space: nowrap; opacity: 0; max-width: 0; overflow: hidden; transition: opacity 0.2s, max-width 0.2s; }
+body.show-name .brand-name { opacity: 1; max-width: 260px; }
+@media (max-width: 640px) {
+  .header-inner { flex-wrap: nowrap; gap: 10px; }
+  .brand-name { font-size: 0.68rem; letter-spacing: 0.14em; }
+  body.show-name .brand .monogram { display: none; }
+  .nav { gap: 14px; }
+}
