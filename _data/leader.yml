@@ -1,0 +1,73 @@
+# ------------------------------------------------------------
+# PRODUCT HEAD PAGE  (/product-head/)  -  edit the text between the quotes
+# Sections with an empty list are hidden automatically, so you can fill them in later:
+#   talks, testimonials, frameworks
+# ------------------------------------------------------------
+headline: "I grow commerce brands fast, solving 80% of the problem with 20% of the effort."
+philosophy: "Storefront and post-order experience products for D2C, e-commerce and quick commerce, built by lean product and tech teams that deliver fast and keep delivering."
+
+bio:
+  - "Product leader with 12+ years across e-commerce, D2C, quick commerce, food delivery and retail. I work where customer experience meets operations: conversion and offers on the storefront, and fulfilment, delivery and returns behind it."
+  - "Today I lead a 28-member product and tech pod of product managers, analysts, designers, developers and QAs. We build growth products for 4 D2C brands and operations technology for 8, working directly with founders, C-suite and growth leaders of each brand on product strategy and the tech roadmap."
+
+numbers:
+  - value: "12+"
+    label: "years in e-commerce, delivery and retail"
+  - value: "28"
+    label: "people in the product and tech pod I lead"
+  - value: "8"
+    label: "D2C brands served: growth products for 4, ops tech for 8"
+  - value: "2.5M+"
+    label: "orders a day on products I owned"
+  - value: "7x"
+    label: "sales growth in 3 quarters"
+
+competencies:
+  - title: "Product strategy and roadmap"
+    text: "Product vision, roadmaps and go-to-market with founders and C-suite."
+  - title: "Growth and conversion"
+    text: "Landing pages to checkout, offers, flash sales and app launches."
+  - title: "Post order and supply chain"
+    text: "Order management, warehousing, returns, last-mile delivery and ops tech."
+  - title: "Algorithms, ML and AI"
+    text: "Driver and courier allocation, ML prep-time guidance, AI control towers."
+  - title: "Platforms and partners"
+    text: "Multi-tenant platforms and integrations with third-party order, warehouse and logistics partners."
+  - title: "Teams and org building"
+    text: "Hiring, coaching and structuring product teams that move fast."
+
+# Strategic case studies: file names (without .md) from the _case_studies folder
+case_studies:
+  - conversion-funnel-and-app
+  - post-order-experience-my-orders-and-rms
+  - optimized-delivery-and-free-delivery
+  - ai-operations-optimizer-and-otb
+
+leadership:
+  - title: "Teams I have built and run"
+    points:
+      - "Lead a 28-member pod of product managers, product and data analysts, designers, developers and QAs"
+      - "Led a 10-member product team that built home-grown operations products for 9k+ orders a day"
+      - "Hired and onboarded product managers and business analysts, making them organization-ready within 4 weeks"
+  - title: "Coaching and mentoring"
+    points:
+      - "Coach 6 product managers, 2 product analysts and 3 product designers"
+      - "Coach on product management and on building customer-centric products"
+  - title: "Process and governance"
+    points:
+      - "A/B tested almost every product feature before launch"
+      - "Daily scrums and sprints for product delivery"
+      - "Work with founders, C-suite and growth leaders of each brand on product strategy and the tech roadmap"
+
+recognition:
+  - "Customer Centricity Excellence with Tech award, group level"
+  - "Korean patent applied for ML-based food prep-time guidance"
+  - "Best Impactful Product of the Quarter for a 3PL logistics vendor portal and rider app"
+  - "Life-saver award for leading an organization-wide compliance transformation"
+  - "Best Product of the Quarter for demand forecasting and inventory products"
+
+# Fill these in to show the sections. Each item: {title, text, link}
+talks: []
+frameworks: []
+# Each item: {quote, name, role}
+testimonials: []
