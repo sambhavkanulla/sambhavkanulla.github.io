@@ -11,7 +11,7 @@ title: "Product Leader"
   <p class="keywords">{% for k in p.keywords %}<span>{{ k }}</span>{% endfor %}</p>
   <p class="edu">{% for e in p.education %}<span>{{ e }}</span>{% endfor %}</p>
   <p class="statement">{{ p.headline }}</p>
-  <p class="lead">{{ p.subheadline }}</p>
+  {% if p.subheadline != "" %}<p class="lead">{{ p.subheadline }}</p>{% endif %}
   <p class="cta-row">
     {% if p.resume_file != "" %}<a class="btn" href="{{ p.resume_file | relative_url }}">Download resume (PDF)</a>{% endif %}
     <a class="btn btn-ghost" href="{{ '/case-studies/' | relative_url }}">Case Studies</a>
