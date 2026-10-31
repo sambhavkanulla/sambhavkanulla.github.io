@@ -105,9 +105,11 @@ main > section > h2.impact-title { margin: 0 0 22px; }
 .proof-label { font-size: 0.9rem; color: var(--muted); margin-top: 8px; line-height: 1.45; }
 
 .proof-top { display: flex; align-items: center; gap: 12px; }
-.ico { flex: none; width: 30px; height: 30px; border-radius: 9px; display: inline-flex; align-items: center; justify-content: center; background: rgba(111, 207, 151, 0.12); color: #7fd8a0; border: 1px solid rgba(111, 207, 151, 0.25); }
-.ico svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-.ico-scale { background: rgba(211, 214, 220, 0.10); color: var(--accent); border-color: rgba(211, 214, 220, 0.25); }
+.ico { flex: none; width: 42px; height: 42px; border-radius: 12px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--line-strong); background: linear-gradient(145deg, #202024, #131316); color: var(--accent); box-shadow: inset 0 1px 0 rgba(255,255,255,0.06); }
+.ico svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.ico.tone-up, .ico.tone-down, .ico.tone-save { color: #86e0a8; border-color: rgba(134, 224, 168, 0.35); background: linear-gradient(145deg, rgba(134,224,168,0.16), rgba(134,224,168,0.04)); }
+.dir { font-size: 0.78rem; line-height: 1; padding: 4px 6px; border-radius: 6px; color: #86e0a8; background: rgba(134, 224, 168, 0.12); align-self: center; }
+.dir-save { font-size: 0.85rem; }
 .proof-label { margin-top: 12px; }
 /* a lone last card on the home page spans the full row */
 .featured-cards > .card:last-child:nth-child(3n+1) { grid-column: 1 / -1; }
@@ -180,8 +182,9 @@ main > section > h2.impact-title { margin: 0 0 22px; }
   .proof-item { padding: 14px; border-radius: 14px; }
   .proof-value { font-size: 1.6rem; }
   .proof-top { gap: 8px; }
-  .ico { width: 26px; height: 26px; border-radius: 8px; }
-  .ico svg { width: 15px; height: 15px; }
+  .ico { width: 34px; height: 34px; border-radius: 10px; }
+  .ico svg { width: 18px; height: 18px; }
+  .dir { font-size: 0.62rem; padding: 3px 5px; }
   .featured-cards > .card:last-child:nth-child(3n+1) { grid-column: auto; }
   .proof-label { font-size: 0.8rem; }
 
