@@ -220,7 +220,7 @@ main > section > h2.impact-title { margin: 0 0 22px; }
 
 
 /* areas: chips, headings, blurbs */
-.area-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 22px 0 0; }
+.area-chips { scroll-margin-top: 20px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 22px 0 0; }
 .chips-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--muted); margin-right: 6px; }
 .area-chips .chip, .area-chips a { font-size: 0.85rem; font-weight: 500; color: var(--text); border: 1px solid var(--line-strong); border-radius: 999px; padding: 7px 16px; background: var(--surface); }
 .area-chips a:hover { text-decoration: none; border-color: var(--accent); color: var(--accent-2); }
@@ -255,3 +255,6 @@ main > section.area > h2 { align-items: center; }
 .related-links { display: inline-flex; flex-wrap: wrap; gap: 4px 16px; vertical-align: top; }
 .related-links a + a::before { content: none; }
 .timeline { margin-top: 28px; }
+.areas-block { margin-top: 56px; scroll-margin-top: 20px; }
+.areas-block .area-chips { margin-top: 0; }
+.area-chips .chip:hover { border-color: var(--accent); }

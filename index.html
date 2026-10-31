@@ -19,7 +19,6 @@ title: "Product Leader"
   </p>
 </section>
 
-{% include area-chips.html scroll="value" %}
 
 <section id="contact" class="contact">
   <div class="contact-card">
@@ -46,6 +45,10 @@ title: "Product Leader"
     </aside>
   </div>
 </section>
+
+<div class="areas-block">
+{% include area-chips.html %}
+</div>
 
 {% assign all_studies = site.case_studies | sort: "order" %}
 <section id="value">

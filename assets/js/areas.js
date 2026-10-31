@@ -31,7 +31,11 @@
   }
 
   var h = location.hash.replace('#', '');
-  apply(keys.indexOf(h) > -1 ? h : 'all', false);
+  var valid = keys.indexOf(h) > -1;
+  apply(valid ? h : 'all', false);
+  if (valid && document.querySelector('.hero')) {
+    window.addEventListener('load', function () { nav.scrollIntoView({ block: 'start' }); });
+  }
   nav.addEventListener('click', function (e) {
     var b = e.target.closest ? e.target.closest('button[data-area]') : null;
     if (b) apply(b.getAttribute('data-area'), true);
