@@ -447,3 +447,50 @@ body.show-name .brand-name { opacity: 1; max-width: 260px; }
     -webkit-mask-image: linear-gradient(to top, #000 0, rgba(0,0,0,0.92) 25%, rgba(0,0,0,0.70) 45%, rgba(0,0,0,0.40) 65%, rgba(0,0,0,0.14) 83%, transparent 100%);
     mask-image: linear-gradient(to top, #000 0, rgba(0,0,0,0.92) 25%, rgba(0,0,0,0.70) 45%, rgba(0,0,0,0.40) 65%, rgba(0,0,0,0.14) 83%, transparent 100%); }
 }
+
+/* ===== Home polish: one spacing scale, consistent radii, no overlaps ===== */
+.ph-hero { border-radius: 20px; }
+.ph-numbers { margin-top: 24px; }
+.ph-section { margin-top: 88px; }
+.ph-section > h2 { margin-bottom: 28px; }
+.ph-two { gap: 48px; }
+.ph-two .prose p { line-height: 1.7; }
+.ph-two .prose p:first-child { line-height: 1.55; }
+.bring { border-radius: 16px; }
+.ph-comp, .ph-cases, .ph-lead { gap: 18px; }
+.ph-comp-item { padding: 24px; }
+.ph-case { padding: 28px 30px; gap: 32px; }
+.ph-case-metrics { gap: 18px; }
+.ph-case-metrics strong { white-space: nowrap; }
+.ph-lead-item { padding-top: 18px; }
+.ph-career li { padding: 18px 4px; }
+.area-more { margin: 22px 0 0; }
+.site-footer { margin-top: 96px; }
+@media (max-width: 960px) {
+  .ph-case { grid-template-columns: 1fr; gap: 22px; }
+  .ph-case-metrics { padding-top: 18px; border-top: 1px solid var(--line); }
+  .ph-case-metrics div:first-child { border-left: 0; padding-left: 0; }
+}
+@media (max-width: 760px) {
+  .ph-section { margin-top: 60px; }
+  .ph-section > h2 { margin-bottom: 20px; }
+  .ph-comp, .ph-cases, .ph-lead { gap: 14px; }
+  .ph-comp-item { padding: 20px; }
+  .ph-case { padding: 22px 20px; }
+  .site-footer { margin-top: 64px; }
+}
+
+/* contact dock: side card only where there is room (>=1160px); otherwise a bottom bar so it never covers content */
+@media (max-width: 1159px) {
+  .dock { top: auto; bottom: 0; left: 0; right: 0; width: auto; transform: none; flex-direction: row; gap: 8px; border: 0; border-radius: 0; box-shadow: none; background: transparent; -webkit-backdrop-filter: none; backdrop-filter: none; isolation: isolate;
+    padding: 10px max(12px, calc((100vw - 980px) / 2 + 22px)) calc(10px + env(safe-area-inset-bottom)); }
+  .dock::before { content: ""; position: absolute; z-index: -1; left: 0; right: 0; bottom: 0; top: -84px; pointer-events: none;
+    background: linear-gradient(to top, rgba(10,10,11,0.85) 0, rgba(10,10,11,0.66) 22%, rgba(10,10,11,0.42) 42%, rgba(10,10,11,0.20) 62%, rgba(10,10,11,0.07) 80%, rgba(10,10,11,0) 100%);
+    -webkit-backdrop-filter: blur(18px) saturate(160%); backdrop-filter: blur(18px) saturate(160%);
+    -webkit-mask-image: linear-gradient(to top, #000 0, rgba(0,0,0,0.92) 25%, rgba(0,0,0,0.70) 45%, rgba(0,0,0,0.40) 65%, rgba(0,0,0,0.14) 83%, transparent 100%);
+    mask-image: linear-gradient(to top, #000 0, rgba(0,0,0,0.92) 25%, rgba(0,0,0,0.70) 45%, rgba(0,0,0,0.40) 65%, rgba(0,0,0,0.14) 83%, transparent 100%); }
+  .dock .btn { flex: 1; width: auto; min-height: 44px; padding: 0 8px; justify-content: center; font-size: 0.85rem; gap: 6px; white-space: nowrap; box-shadow: none; }
+  .dock .pdf-tag { display: none; }
+  body { padding-bottom: 76px; }
+}
+@media (min-width: 1160px) and (max-width: 1359px) { .dock { right: 10px; } }
