@@ -19,7 +19,7 @@ linkedin: "https://www.linkedin.com/in/sambhavkanulla/"
 # Resume button. After you upload a PDF into the assets folder,
 # put its path here, e.g. "/assets/Sambhav_Kanulla_Resume.pdf".
 # Leave it as "" to hide the button.
-resume_file: ""
+resume_file: "/Sambhav_Kanulla_Resume.pdf"
 
 # The four numbers shown under the headline
 proof_points:
