@@ -413,3 +413,25 @@ body.show-name .brand-name { opacity: 1; max-width: 260px; }
 }
 @media (min-width: 761px) and (max-width: 1359px) { .dock { right: 10px; padding: 8px; } .dock .btn { width: 44px; min-height: 44px; padding: 0; justify-content: center; font-size: 0; gap: 0; } }
 @media (min-width: 1360px) { .dock { width: 164px; } .dock .btn { width: 100%; justify-content: flex-start; font-size: 0.9rem; gap: 9px; padding: 0 16px; } }
+
+/* Apple-style translucent glass: gradual blur on sticky bars, solid-enough buttons for legibility */
+.site-header { background: transparent !important; -webkit-backdrop-filter: none !important; backdrop-filter: none !important; border-bottom: 0 !important; isolation: isolate; }
+.site-header::before { content: ""; position: absolute; z-index: -1; left: 0; right: 0; top: 0; bottom: -26px; pointer-events: none;
+  background: linear-gradient(to bottom, rgba(10,10,11,0.78), rgba(10,10,11,0.30) 70%, rgba(10,10,11,0));
+  -webkit-backdrop-filter: blur(18px) saturate(160%); backdrop-filter: blur(18px) saturate(160%);
+  -webkit-mask-image: linear-gradient(to bottom, #000 0, #000 62%, transparent 100%); mask-image: linear-gradient(to bottom, #000 0, #000 62%, transparent 100%); }
+.site-header::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.10), transparent); }
+
+.dock .btn-ghost { background-color: rgba(10,10,11,0.55); color: var(--accent-2); border-color: rgba(255,255,255,0.34); }
+.dock .btn:not(.btn-ghost) { box-shadow: 0 4px 14px rgba(0,0,0,0.35); }
+
+@media (min-width: 761px) {
+  .dock { background: rgba(24,24,28,0.46); -webkit-backdrop-filter: blur(22px) saturate(180%); backdrop-filter: blur(22px) saturate(180%); border: 1px solid rgba(255,255,255,0.14); box-shadow: 0 12px 36px rgba(0,0,0,0.45), inset 0 1px 0 rgba(255,255,255,0.10); }
+}
+@media (max-width: 760px) {
+  .dock { background: transparent; border-top: 0; -webkit-backdrop-filter: none; backdrop-filter: none; isolation: isolate; }
+  .dock::before { content: ""; position: absolute; z-index: -1; left: 0; right: 0; bottom: 0; top: -30px; pointer-events: none;
+    background: linear-gradient(to top, rgba(10,10,11,0.82), rgba(10,10,11,0.40) 65%, rgba(10,10,11,0));
+    -webkit-backdrop-filter: blur(18px) saturate(160%); backdrop-filter: blur(18px) saturate(160%);
+    -webkit-mask-image: linear-gradient(to top, #000 0, #000 60%, transparent 100%); mask-image: linear-gradient(to top, #000 0, #000 60%, transparent 100%); }
+}
