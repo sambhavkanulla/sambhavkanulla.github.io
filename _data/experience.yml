@@ -26,6 +26,12 @@
     - fast-delivery-same-day-and-2-hour
     - post-order-experience-my-orders-and-rms
     - ai-operations-optimizer-and-otb
+    - bewakoof-conversion-funnel-and-offers
+    - veirdo-juneberry-conversion-funnel
+    - special-collection-pages
+    - flash-sale-tools
+    - oms-and-custom-wms-tools
+    - post-order-fraud-detection
 
 - company: "Coupang Eats"
   url: "https://www.coupangeats.com/"
@@ -43,6 +49,11 @@
   case_studies:
     - coupang-target-pickup-time
     - coupang-optimized-delivery-and-wow
+    - coupang-driver-allocation-algorithm
+    - coupang-weather-control-center-and-3pl-portal
+    - coupang-driver-app-settlement-and-ui
+    - coupang-restaurant-pos-app
+    - coupang-wow-stores
 
 - company: "Purplle.com"
   url: "https://www.purplle.com/"
@@ -58,7 +69,12 @@
     - "Inventory planning released 32% working capital; auto-replenishment saved 35 man-hours a day"
     - "Same-day and next-day delivery: orders per day up 17% at pilot locations"
   award: "Life-saver award (Covid-19 compliance transformation). Best Product of the Quarter (demand forecasting and inventory)"
-  case_studies: []
+  case_studies:
+    - purplle-demand-and-inventory-planning
+    - purplle-home-grown-wms
+    - purplle-courier-allocation
+    - purplle-same-day-delivery
+    - purplle-covid-19-compliance-transformation
 
 - company: "Reliance Jio / Digital / Retail"
   url: "https://www.jio.com/"
@@ -76,6 +92,10 @@
   award: ""
   case_studies:
     - jiophone-launch-supply-chain
+    - jio-inventory-forecasting-and-physical-inventory
+    - jio-fttx-fibre-launch
+    - jio-points-and-jio-centers-apps
+    - jio-user-onboarding-and-authorization
 
 - company: "Earlier experience"
   location: "India"
