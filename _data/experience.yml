@@ -22,12 +22,12 @@
     - "Mentor 6 product managers, 2 product analysts and 3 product designers"
   award: "ABFRL Customer Centricity Excellence with Tech award (Bewakoof customer experience)"
   case_studies:
-    - wrogn-conversion-funnel-and-app
+    - conversion-funnel-and-app
     - fast-delivery-same-day-and-2-hour
     - post-order-experience-my-orders-and-rms
     - ai-operations-optimizer-and-otb
-    - bewakoof-conversion-funnel-and-offers
-    - veirdo-juneberry-conversion-funnel
+    - conversion-and-offers
+    - two-brand-conversion-funnel
     - special-collection-pages
     - flash-sale-tools
     - oms-and-custom-wms-tools
@@ -47,13 +47,13 @@
     - "WOW launch: sales up 7x in 3 quarters"
   award: "Korean patent applied for ML prep-time guidance. Best Impactful Product of the Quarter for the 3PL vendor portal and rider app"
   case_studies:
-    - coupang-target-pickup-time
-    - coupang-optimized-delivery-and-wow
-    - coupang-driver-allocation-algorithm
-    - coupang-weather-control-center-and-3pl-portal
-    - coupang-driver-app-settlement-and-ui
-    - coupang-restaurant-pos-app
-    - coupang-wow-stores
+    - target-pickup-time
+    - optimized-delivery-and-free-delivery
+    - driver-allocation-algorithm
+    - weather-control-center-and-3pl-portal
+    - driver-app-settlement-and-ui
+    - restaurant-pos-app
+    - loyalty-program-stores
 
 - company: "Purplle.com"
   url: "https://www.purplle.com/"
@@ -70,11 +70,11 @@
     - "Same-day and next-day delivery: orders per day up 17% at pilot locations"
   award: "Life-saver award (Covid-19 compliance transformation). Best Product of the Quarter (demand forecasting and inventory)"
   case_studies:
-    - purplle-demand-and-inventory-planning
-    - purplle-home-grown-wms
-    - purplle-courier-allocation
-    - purplle-same-day-delivery
-    - purplle-covid-19-compliance-transformation
+    - demand-and-inventory-planning
+    - home-grown-wms
+    - courier-allocation
+    - same-day-and-next-day-delivery
+    - covid-19-compliance-transformation
 
 - company: "Reliance Jio / Digital / Retail"
   url: "https://www.jio.com/"
@@ -91,11 +91,11 @@
     - "Automated onboarding for 1M+ supply-chain users"
   award: ""
   case_studies:
-    - jiophone-launch-supply-chain
-    - jio-inventory-forecasting-and-physical-inventory
-    - jio-fttx-fibre-launch
-    - jio-points-and-jio-centers-apps
-    - jio-user-onboarding-and-authorization
+    - feature-phone-launch-supply-chain
+    - inventory-forecasting-and-physical-inventory
+    - fttx-fibre-launch
+    - retail-store-super-apps
+    - user-onboarding-and-authorization
 
 - company: "Earlier experience"
   location: "India"

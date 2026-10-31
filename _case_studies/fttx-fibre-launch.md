@@ -5,7 +5,7 @@ period: "2017-2019"
 role: "Product Manager"
 team: "Product, supply chain, partners"
 scale: "50k+ FTTx devices, 15+ teams"
-tagline: "Order aggregation, fulfilment and device supply for the launch of Jio's fibre-to-home devices."
+tagline: "Order aggregation, fulfilment and device supply for the launch of fibre-to-home devices."
 order: 25
 featured: false
 metrics:
@@ -19,7 +19,7 @@ metrics:
 
 ## Context
 
-FTTx is Jio's fibre-to-the-home service. Launching it meant coordinating device supply, installation and payments across many teams.
+FTTx is a fibre-to-the-home service. Launching it meant coordinating device supply, installation and payments across many teams.
 
 ## What I built
 

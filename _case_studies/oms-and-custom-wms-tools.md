@@ -19,7 +19,7 @@ metrics:
 
 ## Context
 
-The brands run on third-party OMS, WMS, LMS and RMS partners such as Unicommerce, Increff, Clickpost, Shiprocket and Pragma. I integrated closely with them for order routing and allocation, warehouse, inventory, logistics and returns management, then built products on top to improve the customer experience.
+The brands run on leading third-party OMS, WMS, LMS and RMS partners. I integrated closely with them for order routing and allocation, warehouse, inventory, logistics and returns management, then built products on top to improve the customer experience.
 
 ## What I built
 

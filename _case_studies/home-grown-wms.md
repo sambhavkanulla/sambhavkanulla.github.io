@@ -19,7 +19,7 @@ metrics:
 
 ## Context
 
-Purplle needed a warehouse system that could handle D2C fulfilment at speed and survive sale surges of 7x orders. I built a WMS from scratch.
+The business needed a warehouse system that could handle D2C fulfilment at speed and survive sale surges of 7x orders. I built a WMS from scratch.
 
 ## What I built
 

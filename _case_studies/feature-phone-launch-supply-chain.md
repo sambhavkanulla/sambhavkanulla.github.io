@@ -1,9 +1,9 @@
 ---
-title: "JioPhone Launch"
+title: "Feature Phone Launch"
 company: "Reliance Jio / Digital / Retail"
 period: "2017-2019"
 role: "Product Manager, supply-chain and logistics products"
-team: "Cross-functional teams across Jio and Reliance Retail"
+team: "Cross-functional supply chain, retail and telecom teams"
 scale: "6M+ vouchers and leads; 11,045+ inventory, fulfilment and sale locations pan India"
 tagline: "Voucher-based order aggregation, variant allocation and supply chain for India's first 4G feature phone."
 order: 7
@@ -16,12 +16,12 @@ metrics:
   - value: "50k+"
     label: "FTTx devices launched"
   - value: "-83%"
-    label: "operational activity time at Jio Points"
+    label: "operational activity time at retail points"
 ---
 
 ## Context
 
-JioPhone was India's first 4G feature phone, built for rural India and one of the country's most awaited launches. It began as a voucher- and invite-based launch, with several variants from multiple vendors.
+This was India's first 4G feature phone, built for rural India and one of the country's most awaited launches. It began as a voucher- and invite-based launch, with several variants from multiple vendors.
 
 ## What I owned
 
@@ -34,7 +34,7 @@ JioPhone was India's first 4G feature phone, built for rural India and one of th
 ## Beyond the launch
 
 - **FTTx (fibre to the home):** work orders, service-engineer issuance, inventory capitalisation, and supply chain and payments for 50k+ devices with 100% serial-number visibility
-- **Store super apps:** JP Works (Jio Points) and JioWorks (Jio Centers), built for low-spec devices, cutting operational activity time by 83% at Jio Points
+- **Store super apps:** one for retail points and one for regional centers, built for low-spec devices, cutting operational activity time by 83% at retail points
 - **Onboarding:** automated authorization and onboarding for 1M+ supply-chain users, with access assigned in under 5 hours
 
 ## Approach

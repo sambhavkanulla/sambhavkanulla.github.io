@@ -1,11 +1,11 @@
 ---
-title: "WOW Stores"
+title: "Loyalty Program Stores"
 company: "Coupang Eats"
 period: "2022-2025"
 role: "Group Product Manager"
 team: "Product, engineering, operations"
 scale: "350k+ restaurants"
-tagline: "Store selection, accounting and settlement products for the WOW offering, automated at scale."
+tagline: "Store selection, accounting and settlement products for the loyalty offering, automated at scale."
 order: 18
 featured: false
 metrics:
@@ -19,11 +19,11 @@ metrics:
 
 ## Context
 
-WOW is Coupang's loyalty program. Restaurants had to be picked for the WOW offering and then settled correctly. I strategized, designed and built store selection, accounting and settlement products for it.
+The company's loyalty program needed its own store set. Restaurants had to be picked for the loyalty offering and then settled correctly. I strategized, designed and built store selection, accounting and settlement products for it.
 
 ## What I built
 
-- Automated **store selection** for the WOW offering
+- Automated **store selection** for the loyalty offering
 - Rebuilt **accounting and settlement** modules for restaurants
 - Catalog and store management features with easy coupon issuance
 

@@ -21,7 +21,7 @@ metrics:
 
 ## Context
 
-Coupang Eats is South Korea's fastest food delivery service. I led restaurant and delivery efficiency products across 2.5M+ orders a day, 200k+ drivers and 350k+ restaurants.
+This is South Korea's fastest food delivery service. I led restaurant and delivery efficiency products across 2.5M+ orders a day, 200k+ drivers and 350k+ restaurants.
 
 ## What I owned
 

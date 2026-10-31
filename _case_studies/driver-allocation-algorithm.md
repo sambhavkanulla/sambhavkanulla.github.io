@@ -17,7 +17,7 @@ metrics:
 
 ## Context
 
-Order-driver assignment decides how fast and how cheaply a delivery happens. I owned and revamped the driver search and allocation algorithm for Coupang Eats.
+Order-driver assignment decides how fast and how cheaply a delivery happens. I owned and revamped the driver search and allocation algorithm for a food delivery service.
 
 ## What I built
 

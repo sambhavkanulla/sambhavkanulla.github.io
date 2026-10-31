@@ -1,10 +1,10 @@
 ---
-title: "WROGN: Funnel and App"
+title: "Conversion Funnel and App"
 company: "TMRW, House of Brands"
 period: "2025-present"
 role: "Associate Director of Product, leading the growth product pod"
 team: "28-member product and tech pod across 4 growth brands and 8 ops-tech brands"
-scale: "WROGN: ₹260 Cr (about $27M) brand; online D2C sales of about ₹60 Cr (about $6.3M)"
+scale: "₹260 Cr (about $27M) brand; online D2C sales of about ₹60 Cr (about $6.3M)"
 tagline: "Web and app conversion funnel, platform tools and growth hacks for a fashion D2C brand."
 order: 3
 featured: true
@@ -21,13 +21,13 @@ metrics:
 
 ## Context
 
-WROGN is a fashion D2C brand at TMRW, House of Brands. I lead the pod that builds its conversion funnel: landing page, listing and product pages, cart, checkout and app installs. Almost every feature was A/B tested before launch.
+This is a fashion D2C brand within a house of brands. I lead the pod that builds its conversion funnel: landing page, listing and product pages, cart, checkout and app installs. Almost every feature was A/B tested before launch.
 
 ## What I owned
 
 - The end-to-end web and app funnel products, platform tools and growth hacks
 - The **iOS and Android app** launch
-- Vertical-scroll product pages for special collections (such as the IPL and FIFA jerseys)
+- Vertical-scroll product pages for special collections (such as sports jersey collections)
 - Flash Sale tools that go live with a single toggle
 
 <!-- ADD: the key problems you found in the funnel and which experiments moved the numbers most. -->

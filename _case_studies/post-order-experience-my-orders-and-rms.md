@@ -4,7 +4,7 @@ company: "TMRW, House of Brands"
 period: "2025-present"
 role: "Associate Director of Product, owner of the post-order platform"
 team: "Product, engineering, design, data and CX operations"
-scale: "A multi-tenant post-order platform for Shopify D2C brands in the group"
+scale: "A multi-tenant post-order platform for D2C brands in the group"
 tagline: "One connected suite: My Orders, returns and refunds, order orchestration and the internal tools behind them."
 order: 5
 featured: true
@@ -21,7 +21,7 @@ metrics:
 
 ## Context
 
-After checkout, the experience splits into tracking, communication, cancellations, returns, exchanges and refunds. In D2C these drive most support tickets and 3PL cost. I built it for the group's Shopify brands as one connected product, not separate features.
+After checkout, the experience splits into tracking, communication, cancellations, returns, exchanges and refunds. In D2C these drive most support tickets and 3PL cost. I built it for the group's brands as one connected product, not separate features.
 
 ## Scope: one project, many products
 
@@ -39,7 +39,7 @@ After checkout, the experience splits into tracking, communication, cancellation
 - **Multi-tenant:** several brands share one platform, each with its own rules
 - **Operations depend on it:** teams use the OMS tool daily to resolve issues and find root causes
 
-<!-- ADD: the hardest integration or edge case, e.g. refunds, partial returns, third-party logistics or Shopify constraints. Confirm which third-party OMS, WMS, LMS and logistics partners this platform actually connects to before naming any. -->
+<!-- ADD: the hardest integration or edge case, e.g. refunds, partial returns, third-party logistics or storefront-platform constraints. Confirm which third-party OMS, WMS, LMS and logistics partners this platform actually connects to before naming any. -->
 
 ## Approach
 

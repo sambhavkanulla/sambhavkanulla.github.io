@@ -22,7 +22,7 @@ Special and premium collections, such as sports jerseys and campaign drops, need
 ## What I built
 
 - A custom **vertical-scroll product detail page (PDP)** for special and premium collections
-- Implemented for Wrogn's IPL and FIFA jerseys, Veirdo's Center Stage and similar collections
+- Implemented for sports jersey drops, campaign collections and similar launches
 
 ## Results
 

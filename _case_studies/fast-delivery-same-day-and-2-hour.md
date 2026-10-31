@@ -21,7 +21,7 @@ metrics:
 
 ## Context
 
-Fast delivery needs serviceability checks, order routing, warehousing and logistics to work together. I led the products that connect them, integrating with third-party OMS, WMS, LMS and RMS partners such as Unicommerce, Increff, Clickpost, Shiprocket and Pragma.
+Fast delivery needs serviceability checks, order routing, warehousing and logistics to work together. I led the products that connect them, integrating with leading third-party OMS, WMS, LMS and RMS partners.
 
 ## What I owned
 

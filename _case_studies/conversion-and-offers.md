@@ -1,5 +1,5 @@
 ---
-title: "Bewakoof: Conversion and Offers"
+title: "Conversion and Offers"
 company: "TMRW, House of Brands"
 period: "2025-present"
 role: "Associate Director of Product"
@@ -21,7 +21,7 @@ metrics:
 
 ## Context
 
-Bewakoof is a $18.5M (₹175 Cr) D2C fashion brand. I built its web and app conversion products on Cart, Offers and Post Order, moving the brand towards a new-generation customer experience and fast delivery offerings.
+This is a $18.5M (₹175 Cr) D2C fashion brand. I built its web and app conversion products on Cart, Offers and Post Order, moving the brand towards a new-generation customer experience and fast delivery offerings.
 
 ## What I built
 
@@ -35,6 +35,6 @@ Bewakoof is a $18.5M (₹175 Cr) D2C fashion brand. I built its web and app conv
 - Conversion up 26%, average order value up 14%, CSAT up 3x
 - More than 70% offers usage per order, within EBITDA and CM2 goals
 - Brand discounts and offers up 40% through the multi-tenant Offers Portal
-- ABFRL Customer Centricity Excellence with Tech award for Bewakoof's customer experience
+- Group-level Customer Centricity Excellence with Tech award for the brand's customer experience
 
 <!-- ADD (optional): approach and trade-offs, and one honest lesson. -->

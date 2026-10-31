@@ -1,5 +1,5 @@
 ---
-title: "Veirdo and Juneberry: Conversion Funnel"
+title: "Conversion Funnel for Two D2C Brands"
 company: "TMRW, House of Brands"
 period: "2025-present"
 role: "Associate Director of Product"
@@ -19,7 +19,7 @@ metrics:
 
 ## Context
 
-Veirdo and Juneberry are D2C fashion brands with about $3.5M (₹30 Cr) in revenue. I built their web conversion funnel products, platform tools and growth hacks.
+These are two D2C fashion brands with about $3.5M (₹30 Cr) in revenue. I built their web conversion funnel products, platform tools and growth hacks.
 
 ## What I built
 
