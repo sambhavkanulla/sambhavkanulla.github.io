@@ -28,15 +28,8 @@ Running operations for several D2C brands creates a steady stream of issues and 
 
 <!-- ADD: the key decisions the AI tools make or recommend, who uses them daily, and how you built trust in the recommendations. -->
 
-## How I went about it
-
-<!-- ADD: how you picked the first use case, how you worked with data and operations teams, how you measured accuracy. -->
 
 ## The outcome
 
 - Operations speed up 5x, order fulfilment accuracy at 98%
 - One standard purchase-planning approach across 8 brands
-
-## What I learned
-
-<!-- ADD: one or two honest lessons. -->

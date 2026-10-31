@@ -31,9 +31,6 @@ I owned the order-driver assignment algorithm and the delivery products for 200k
 
 <!-- ADD: how Optimized Delivery works at a high level, the main trade-off (speed vs. cost, early vs. late deliveries), and how you tested it. -->
 
-## How I went about it
-
-<!-- ADD: key decisions, trade-offs and how you rolled it out. -->
 
 ## The outcome
 
@@ -42,7 +39,3 @@ I owned the order-driver assignment algorithm and the delivery products for 200k
 - Optimized Delivery: 12 minutes faster on average (7 minutes in bad weather or driver shortages), delayed orders down 9%
 - Re-skinned as Free Delivery for loyalty members, with 70%+ customer opt-in
 - Sales up 7x in 3 quarters after the loyalty launch
-
-## What I learned
-
-<!-- ADD: one or two honest lessons. -->

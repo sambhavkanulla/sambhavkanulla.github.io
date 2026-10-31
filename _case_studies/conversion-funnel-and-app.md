@@ -32,9 +32,6 @@ This is a fashion D2C brand within a house of brands. I lead the pod that builds
 
 <!-- ADD: the key problems you found in the funnel and which experiments moved the numbers most. -->
 
-## How I went about it
-
-<!-- ADD: how you prioritised experiments, how you worked with the brand's founders and growth leaders, what you tested and what failed. -->
 
 ## The outcome
 
@@ -42,7 +39,3 @@ This is a fashion D2C brand within a house of brands. I lead the pod that builds
 - App launch: orders up 20%+, revenue up 25%, conversion 2x, customer retention 4x
 - Special-collection pages: conversion 2x, AOV up 30%
 - Flash Sale suite: revenue 4x, ROAS 3x during sale events
-
-## What I learned
-
-<!-- ADD: one or two honest lessons. -->
