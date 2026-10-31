@@ -368,3 +368,12 @@ main > section.area > h2 { align-items: center; }
 .ph-num-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
 .ph-num-top .dir { position: static; }
 @media (max-width: 760px) { .ph-num-top { margin-bottom: 10px; } .ph-num-top .ico { width: 34px; height: 34px; border-radius: 10px; } .ph-num-top .ico svg { width: 18px; height: 18px; } }
+
+/* impact strip: refined, quiet icons */
+.ph-number .ico { width: auto; height: auto; border: 0; background: none; box-shadow: none; border-radius: 0; color: var(--accent); }
+.ph-number .ico svg { width: 28px; height: 28px; stroke-width: 1.25; }
+.ph-number .ico.tone-up, .ph-number .ico.tone-down, .ph-number .ico.tone-save { color: var(--accent); background: none; border: 0; }
+.ph-number .dir { background: none; padding: 0; border-radius: 0; font-size: 0.7rem; color: #8fd6ae; opacity: 0.9; letter-spacing: 0; }
+.ph-num-top { margin-bottom: 16px; }
+.ph-number { padding: 24px 22px; }
+@media (max-width: 760px) { .ph-num-top .ico { width: auto; height: auto; } .ph-num-top .ico svg { width: 24px; height: 24px; } .ph-number { padding: 18px 16px; } }
