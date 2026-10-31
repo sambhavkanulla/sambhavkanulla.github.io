@@ -7,6 +7,7 @@ team: "Product, engineering, supply chain"
 scale: "9k+ orders a day"
 tagline: "Rebuilt end-to-end inventory products for demand planning, procurement and return to vendor."
 order: 19
+areas: [ops]
 featured: false
 metrics:
   - value: "32%"

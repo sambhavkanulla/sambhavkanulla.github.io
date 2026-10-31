@@ -7,6 +7,7 @@ team: "Product, engineering, retail operations"
 scale: "11k+ retail points, 1,100+ regional centers"
 tagline: "Store super apps for retail points and regional centers that cut operational time and ran on low-spec devices."
 order: 26
+areas: [ops]
 featured: false
 metrics:
   - value: "-83%"

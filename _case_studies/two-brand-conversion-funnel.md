@@ -7,6 +7,7 @@ team: "Product, design, engineering, QA"
 scale: "$3.5M (₹30 Cr) D2C brands"
 tagline: "Web conversion funnel products, platform tools and growth hacks for two D2C fashion brands."
 order: 9
+areas: [d2c]
 featured: false
 metrics:
   - value: "2x"

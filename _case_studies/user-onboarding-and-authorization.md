@@ -7,6 +7,7 @@ team: "Product, engineering, governance"
 scale: "1M+ supply chain users"
 tagline: "Automated onboarding and role authorization for supply chain users across India."
 order: 27
+areas: [ops]
 featured: false
 metrics:
   - value: "1M+"

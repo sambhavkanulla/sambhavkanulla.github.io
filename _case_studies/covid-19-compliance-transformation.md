@@ -7,6 +7,7 @@ team: "Product, category, supply chain"
 scale: "Organization-wide"
 tagline: "An org-wide product, category and supply chain transformation to stay compliant and keep operating."
 order: 23
+areas: [ops]
 featured: false
 metrics:
   - value: "2 days"

@@ -7,7 +7,8 @@ team: "Product, engineering"
 scale: "8+ D2C brands"
 tagline: "A flash sale suite that goes live with a single toggle for brand sale events."
 order: 11
-featured: false
+areas: [d2c]
+featured: true
 metrics:
   - value: "4x"
     label: "revenue"

@@ -1,0 +1,5 @@
+<a class="card" href="{{ include.cs.url | relative_url }}">
+  <h3>{{ include.cs.title }}</h3>
+  <p>{{ include.cs.tagline }}</p>
+  {% if include.cs.metrics %}<p class="card-metric"><strong>{{ include.cs.metrics[0].value }}</strong> {{ include.cs.metrics[0].label }}</p>{% endif %}
+</a>

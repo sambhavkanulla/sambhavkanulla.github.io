@@ -7,6 +7,7 @@ team: "Product, ERP, supply chain"
 scale: "11,045+ inventory and sale locations"
 tagline: "Automatic forecasting, replenishment and system-based stock counts across retail and warehouse sites."
 order: 24
+areas: [ops]
 featured: false
 metrics:
   - value: "$35k"

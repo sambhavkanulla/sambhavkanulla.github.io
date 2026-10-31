@@ -7,6 +7,7 @@ team: "Product, data science, engineering, operations"
 scale: "2.5M+ orders a day; loyalty program with 14M+ users"
 tagline: "A redesigned driver-allocation algorithm and Optimized Delivery, which became Free Delivery for loyalty members members."
 order: 2
+areas: [ops]
 featured: true
 metrics:
   - value: "-12 min"

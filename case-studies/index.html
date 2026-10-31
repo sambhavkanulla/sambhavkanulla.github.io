@@ -5,12 +5,18 @@ intro: "Products I owned, with the problem, decisions and results."
 permalink: /case-studies/
 ---
 {% assign studies = site.case_studies | sort: "order" %}
-<div class="cards">
-  {% for cs in studies %}
-  <a class="card" href="{{ cs.url | relative_url }}">
-    <h3>{{ cs.title }}</h3>
-    <p>{{ cs.tagline }}</p>
-    {% if cs.metrics %}<p class="card-metric"><strong>{{ cs.metrics[0].value }}</strong> {{ cs.metrics[0].label }}</p>{% endif %}
-  </a>
-  {% endfor %}
-</div>
+<nav class="area-chips" aria-label="Areas of experience">
+  <span class="chips-label">Jump to</span>
+  {% for area in site.data.areas %}<a href="#{{ area.key }}">{{ area.short }}</a>{% endfor %}
+</nav>
+{% for area in site.data.areas %}
+<section id="{{ area.key }}" class="area">
+  <h2 class="area-h2">{{ area.title }}</h2>
+  <p class="area-blurb">{{ area.blurb }}</p>
+  <div class="cards">
+    {% for cs in studies %}{% if cs.areas contains area.key %}
+    {% include case-card.html cs=cs %}
+    {% endif %}{% endfor %}
+  </div>
+</section>
+{% endfor %}

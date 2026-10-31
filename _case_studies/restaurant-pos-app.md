@@ -7,7 +7,8 @@ team: "Product, design, engineering"
 scale: "350k+ restaurants, 2M+ orders a day"
 tagline: "A revamped merchant POS app and restaurant tools that raised order completion and repeat orders."
 order: 17
-featured: false
+areas: [b2b]
+featured: true
 metrics:
   - value: "98.7%"
     label: "order completion"

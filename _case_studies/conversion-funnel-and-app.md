@@ -7,6 +7,7 @@ team: "28-member product and tech pod across 4 growth brands and 8 ops-tech bran
 scale: "₹260 Cr (about $27M) brand; online D2C sales of about ₹60 Cr (about $6.3M)"
 tagline: "Web and app conversion funnel, platform tools and growth hacks for a fashion D2C brand."
 order: 3
+areas: [d2c]
 featured: true
 metrics:
   - value: "3x"

@@ -7,6 +7,7 @@ team: "Product, data science, engineering"
 scale: "200k+ drivers, 2.5M+ orders a day"
 tagline: "A revamped driver search and allocation algorithm for speed and cost."
 order: 14
+areas: [ops]
 featured: false
 metrics:
   - value: "-16%"

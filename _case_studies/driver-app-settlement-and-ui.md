@@ -7,6 +7,7 @@ team: "Product, design, engineering"
 scale: "200k+ drivers"
 tagline: "Self-help settlement features and a clearer driver UI that cut support calls and mis-deliveries."
 order: 16
+areas: [ops]
 featured: false
 metrics:
   - value: "-64%"

@@ -1,0 +1,16 @@
+# ------------------------------------------------------------
+# YOUR AREAS OF EXPERTISE  -  used on the Home, Experience and Case studies pages
+# "key" is what case studies, tiles and experience bullets point to.
+# ------------------------------------------------------------
+- key: ops
+  title: "Post Order, Supply Chain & Ops Tech"
+  short: "Post Order & Supply Chain"
+  blurb: "Post-order experience, order fulfilment, logistics, delivery and the operations tools behind them."
+- key: d2c
+  title: "D2C, eCommerce & Quick Commerce"
+  short: "D2C & eCommerce"
+  blurb: "Conversion funnels, offers, growth tools and fast delivery for fashion D2C brands."
+- key: b2b
+  title: "B2B Products"
+  short: "B2B Products"
+  blurb: "Merchant and restaurant products: point of sale, store selection and settlement."

@@ -7,6 +7,7 @@ team: "Cross-functional supply chain, retail and telecom teams"
 scale: "6M+ vouchers and leads; 11,045+ inventory, fulfilment and sale locations pan India"
 tagline: "Voucher-based order aggregation, variant allocation and supply chain for India's first 4G feature phone."
 order: 7
+areas: [ops]
 featured: true
 metrics:
   - value: "6M+"

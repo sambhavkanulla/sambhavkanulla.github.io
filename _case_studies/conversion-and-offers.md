@@ -7,7 +7,8 @@ team: "Product, design, engineering, QA"
 scale: "$18.5M (₹175 Cr) fashion D2C brand"
 tagline: "Cart, offers and post-order products that lifted conversion, order value and customer satisfaction."
 order: 8
-featured: false
+areas: [d2c]
+featured: true
 metrics:
   - value: "+26%"
     label: "conversion"

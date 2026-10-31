@@ -1,9 +1,12 @@
 # ------------------------------------------------------------
-# YOUR EXPERIENCE TIMELINE  -  newest role first
-# To add a new role: copy one whole block (from the "- company" line
-# down to the last bullet), paste it at the TOP, and change the text.
-# "url" makes the company name a link. "logo" is an optional picture path, e.g. "/assets/logos/tmrw.png".
-# "case_studies" lists the file names (without .md) of related case studies.
+# YOUR EXPERIENCE  -  newest role first
+# Each bullet has its text ("t") and the areas it belongs to ("a"):
+#   ops = Post Order, Supply Chain & Ops Tech
+#   d2c = D2C, eCommerce & Quick Commerce
+#   b2b = B2B Products
+# A bullet can list more than one area, e.g. a: [ops, d2c]
+# "url" makes the company name a link. "logo" is an optional picture path.
+# "case_studies" lists the case study file names (without .md).
 # ------------------------------------------------------------
 
 - company: "TMRW, House of Brands (ABFRL Group)"
@@ -14,23 +17,27 @@
   dates: "Apr 2025 - Present"
   summary: "Conversion funnel and post-order products for fashion D2C brands with about $150M (₹1,400 Cr) combined revenue, part of the ABFRL Group (about $1B, ₹9k Cr)."
   highlights:
-    - "Lead a 28-member product and tech pod: growth products for 4 brands, ops tech for 8"
-    - "WROGN: revenue 3x, conversion 2x, AOV up 32%; launched the iOS and Android app"
-    - "Fast delivery: 70% of orders pan India, RTO down 83%"
-    - "Post Order Experience for Shopify brands: CX tickets down 90%, ₹3 Cr (about $300k) saved in 3PL costs"
-    - "AI Operations Optimizer and Open-to-Buy tools across 8 brands"
-    - "Mentor 6 product managers, 2 product analysts and 3 product designers"
+    - {t: "Lead a 28-member product and tech pod: growth products for 4 brands, ops tech for 8", a: [ops, d2c]}
+    - {t: "Mentor 6 product managers, 2 product analysts and 3 product designers", a: [ops, d2c]}
+    - {t: "WROGN: revenue 3x, conversion 2x, AOV up 32%; launched the iOS and Android app", a: [d2c]}
+    - {t: "Bewakoof: conversion up 26%, AOV up 14%, CSAT 3x; offers used on 70%+ of orders", a: [d2c]}
+    - {t: "Veirdo and Juneberry: revenue 2x, conversion up 23%, AOV up 56%", a: [d2c]}
+    - {t: "Special collection pages: conversion 2x, AOV up 30%. Flash sale tools: 4x revenue, 3x ROAS", a: [d2c]}
+    - {t: "Fast delivery: 70% of orders pan India, RTO down 83%, 2-hour hyperlocal delivery in Bangalore", a: [ops, d2c]}
+    - {t: "Post Order Experience for Shopify brands: CX tickets down 90%, ₹3 Cr (about $300k) saved in 3PL costs", a: [ops]}
+    - {t: "OMS and custom WMS tools: CX turnaround 10 minutes, warehouse processing time down 80%", a: [ops]}
+    - {t: "AI Operations Optimizer and Open-to-Buy tools across 8 brands", a: [ops]}
   award: "ABFRL Customer Centricity Excellence with Tech award (Bewakoof customer experience)"
   case_studies:
     - conversion-funnel-and-app
-    - fast-delivery-same-day-and-2-hour
-    - post-order-experience-my-orders-and-rms
-    - ai-operations-optimizer-and-otb
     - conversion-and-offers
     - two-brand-conversion-funnel
     - special-collection-pages
     - flash-sale-tools
+    - fast-delivery-same-day-and-2-hour
+    - post-order-experience-my-orders-and-rms
     - oms-and-custom-wms-tools
+    - ai-operations-optimizer-and-otb
     - post-order-fraud-detection
 
 - company: "Coupang Eats"
@@ -41,15 +48,20 @@
   dates: "Apr 2022 - Apr 2025"
   summary: "Restaurant and delivery efficiency products, and the driver-assignment algorithm, for South Korea's fastest food delivery service."
   highlights:
-    - "Owned products for 200k+ drivers and 350k+ restaurants across 2.5M+ orders a day"
-    - "Target Pickup Time and ML prep-time guidance: restaurant pickup wait down 34%, driver wait down 26%"
-    - "Optimized Delivery: delivery 12 minutes faster, later launched as Free Delivery for WOW"
-    - "WOW launch: sales up 7x in 3 quarters"
+    - {t: "Owned products for 200k+ drivers and 350k+ restaurants across 2.5M+ orders a day", a: [ops]}
+    - {t: "Driver allocation algorithm: delayed tail-end deliveries down 16%, pickup and drop-off 5 minutes faster", a: [ops]}
+    - {t: "Target Pickup Time and ML prep-time guidance: restaurant pickup wait down 34%, driver wait down 26%", a: [ops]}
+    - {t: "Optimized Delivery: delivery 12 minutes faster, later launched as Free Delivery for WOW; sales up 7x in 3 quarters", a: [ops]}
+    - {t: "Weather Control Center and 3PL vendor portal: delivery delays down about 30%, delivery supply up 60%+", a: [ops]}
+    - {t: "Driver app settlement and UI: delivery CX queries down 64%, mis-deliveries down 78%", a: [ops]}
+    - {t: "Restaurant POS app: 98.7% order completion, new-store training time down 75%", a: [b2b]}
+    - {t: "WOW stores: store selection and settlement automated, saving 3,000 man-hours a day", a: [b2b]}
+    - {t: "1-click coupon templates for restaurants: orders per day up 13%", a: [b2b]}
   award: "Korean patent applied for ML prep-time guidance. Best Impactful Product of the Quarter for the 3PL vendor portal and rider app"
   case_studies:
     - target-pickup-time
-    - optimized-delivery-and-free-delivery
     - driver-allocation-algorithm
+    - optimized-delivery-and-free-delivery
     - weather-control-center-and-3pl-portal
     - driver-app-settlement-and-ui
     - restaurant-pos-app
@@ -63,11 +75,12 @@
   dates: "Nov 2019 - Apr 2022"
   summary: "In-house operations products for a $31M business, supporting 10x demand growth in two years."
   highlights:
-    - "Led a 10-member team: catalog, category, supply-chain and finance products for 9k+ orders a day"
-    - "Home-grown WMS: order-to-dispatch time down 73.6%, capacity up 4x"
-    - "Courier allocation algorithm: 3PL delivery cost down 23%"
-    - "Inventory planning released 32% working capital; auto-replenishment saved 35 man-hours a day"
-    - "Same-day and next-day delivery: orders per day up 17% at pilot locations"
+    - {t: "Led a 10-member team: catalog, category, supply-chain and finance products for 9k+ orders a day", a: [ops]}
+    - {t: "Home-grown WMS: order-to-dispatch time down 73.6%, capacity up 4x", a: [ops]}
+    - {t: "Courier allocation algorithm: 3PL delivery cost down 23%", a: [ops]}
+    - {t: "Inventory planning released 32% working capital; auto-replenishment saved 35 man-hours a day", a: [ops]}
+    - {t: "Same-day and next-day delivery: orders per day up 17% at pilot locations", a: [ops]}
+    - {t: "Led the org-wide Covid-19 compliance transformation, shipping the changes within 2 days", a: [ops]}
   award: "Life-saver award (Covid-19 compliance transformation). Best Product of the Quarter (demand forecasting and inventory)"
   case_studies:
     - demand-and-inventory-planning
@@ -84,16 +97,17 @@
   dates: "Apr 2017 - Nov 2019"
   summary: "Supply-chain products for India's largest retailer and the launch of the world's largest 4G network."
   highlights:
-    - "Supply chain and logistics across 11,045+ locations, 10M+ inventory movements and sales a day"
-    - "JioPhone launch: voucher-based order aggregation and supply chain for 6M+ phones"
-    - "FTTx launch: supply chain for 50k+ devices"
-    - "Store super apps cut operational activity time by 83% at Jio Points"
-    - "Automated onboarding for 1M+ supply-chain users"
+    - {t: "Supply chain and logistics across 11,045+ locations, 10M+ inventory movements and sales a day", a: [ops]}
+    - {t: "JioPhone launch: voucher-based order aggregation and supply chain for 6M+ phones", a: [ops]}
+    - {t: "FTTx launch: supply chain for 50k+ devices", a: [ops]}
+    - {t: "Inventory forecasting and physical inventory: planning accuracy of 10 days of inventory", a: [ops]}
+    - {t: "Store super apps cut operational activity time by 83% at Jio Points", a: [ops]}
+    - {t: "Automated onboarding for 1M+ supply-chain users", a: [ops]}
   award: ""
   case_studies:
     - feature-phone-launch-supply-chain
-    - inventory-forecasting-and-physical-inventory
     - fttx-fibre-launch
+    - inventory-forecasting-and-physical-inventory
     - retail-store-super-apps
     - user-onboarding-and-authorization
 

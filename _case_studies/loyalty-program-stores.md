@@ -7,7 +7,8 @@ team: "Product, engineering, operations"
 scale: "350k+ restaurants"
 tagline: "Store selection, accounting and settlement products for the loyalty offering, automated at scale."
 order: 18
-featured: false
+areas: [b2b]
+featured: true
 metrics:
   - value: "3,000"
     label: "man-hours saved per day"

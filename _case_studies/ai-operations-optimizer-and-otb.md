@@ -7,6 +7,7 @@ team: "Product, engineering, data and operations teams across 8 D2C brands"
 scale: "Multi-tenant AI tools used across 8 D2C brands"
 tagline: "An AI control tower and a purchase-planning tool that standardise operations and buying across 8 brands."
 order: 6
+areas: [ops]
 featured: true
 metrics:
   - value: "5x"

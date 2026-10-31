@@ -7,6 +7,7 @@ team: "Product, engineering, operations"
 scale: "200k+ drivers"
 tagline: "Tools that keep rider supply stable in bad weather and bring third-party drivers onto the platform."
 order: 15
+areas: [ops]
 featured: false
 metrics:
   - value: "-30%"

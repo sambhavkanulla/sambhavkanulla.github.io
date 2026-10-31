@@ -7,6 +7,7 @@ team: "Product, engineering"
 scale: "9k+ orders a day"
 tagline: "An algorithm that picks the courier by weight and volume cost."
 order: 21
+areas: [ops]
 featured: false
 metrics:
   - value: "-23%"

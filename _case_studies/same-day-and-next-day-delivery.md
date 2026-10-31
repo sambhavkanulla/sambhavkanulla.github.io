@@ -7,6 +7,7 @@ team: "Product, engineering, operations"
 scale: "Pilot locations"
 tagline: "Same-day and next-day delivery capability, piloted in select locations."
 order: 22
+areas: [ops]
 featured: false
 metrics:
   - value: "+17%"

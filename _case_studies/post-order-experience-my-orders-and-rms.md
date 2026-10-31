@@ -7,6 +7,7 @@ team: "Product, engineering, design, data and CX operations"
 scale: "A multi-tenant post-order platform for D2C brands in the group"
 tagline: "One connected suite: My Orders, returns and refunds, order orchestration and the internal tools behind them."
 order: 5
+areas: [ops]
 featured: true
 metrics:
   - value: "-90%"

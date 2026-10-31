@@ -7,6 +7,7 @@ team: "Product, engineering, QA"
 scale: "9k+ orders a day, 7x sale surges"
 tagline: "A warehouse management system built from scratch for D2C order fulfilment."
 order: 20
+areas: [ops]
 featured: false
 metrics:
   - value: "-73.6%"

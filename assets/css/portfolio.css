@@ -212,6 +212,35 @@ main > section > h2.impact-title { margin: 0 0 22px; }
   .bring { padding: 20px 18px 8px; }
   .contact-card { padding: 22px 18px; gap: 16px; }
   .contact-card .cta-row { width: 100%; }
+  .area-job { padding: 18px 16px 12px; }
+  .area-chips a { padding: 7px 13px; }
   .site-footer { margin-top: 56px; }
   .footer-inner { flex-direction: column; gap: 6px; }
 }
+
+
+/* areas: chips, headings, blurbs */
+.area-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 22px 0 0; }
+.chips-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--muted); margin-right: 6px; }
+.area-chips a { font-size: 0.85rem; font-weight: 500; color: var(--text); border: 1px solid var(--line-strong); border-radius: 999px; padding: 7px 16px; background: var(--surface); }
+.area-chips a:hover { text-decoration: none; border-color: var(--accent); color: var(--accent-2); }
+.area-blurb { color: var(--muted); max-width: 680px; margin: -6px 0 26px; }
+.area h3.sub { font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.18em; color: var(--muted); font-weight: 600; margin: 30px 0 14px; }
+.area-more { margin: 20px 0 0; font-size: 0.95rem; }
+.area { scroll-margin-top: 20px; }
+.area-h2 { margin: 56px 0 14px; display: flex; align-items: center; gap: 16px; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.26em; font-weight: 600; color: var(--muted); }
+.area-h2::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+main > section.area > h2 { align-items: center; }
+
+/* experience: area groups */
+.area-jobs { display: grid; gap: 22px; }
+.area-job { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 22px 24px 18px; box-shadow: var(--shadow); }
+.area-job .eyebrow { margin-bottom: 2px; }
+.job-company { font-size: 1.25rem; margin: 0 0 12px; line-height: 1.3; }
+.job-role { display: block; font-size: 0.92rem; font-weight: 500; color: var(--muted); margin-top: 2px; }
+.area-job ul { margin: 0 0 12px; padding-left: 1.2em; }
+.area-job li { margin-bottom: 0.45em; }
+.related-links a + a::before { content: " · "; color: var(--muted); }
+.related-links a { margin-right: 0; }
+.job-summary { color: var(--muted); font-size: 0.95rem; margin: 0 0 0.4em; }
+.timeline .job-company { margin: 0.1em 0 0; }

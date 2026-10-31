@@ -7,6 +7,7 @@ team: "Product, engineering, operations"
 scale: "D2C brands"
 tagline: "Monitoring and blocking post-order fraud to protect revenue."
 order: 13
+areas: [ops]
 featured: false
 metrics:
   - value: "85%"

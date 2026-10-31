@@ -7,6 +7,7 @@ team: "Product, design, engineering"
 scale: "Used across multiple D2C brands"
 tagline: "A custom vertical-scroll product page for special and premium collections."
 order: 10
+areas: [d2c]
 featured: false
 metrics:
   - value: "2x"

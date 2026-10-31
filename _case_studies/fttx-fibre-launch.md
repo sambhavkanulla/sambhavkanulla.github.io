@@ -7,6 +7,7 @@ team: "Product, supply chain, partners"
 scale: "50k+ FTTx devices, 15+ teams"
 tagline: "Order aggregation, fulfilment and device supply for the launch of fibre-to-home devices."
 order: 25
+areas: [ops]
 featured: false
 metrics:
   - value: "50k+"

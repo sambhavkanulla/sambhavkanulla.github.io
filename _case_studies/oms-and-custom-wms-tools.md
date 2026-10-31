@@ -7,6 +7,7 @@ team: "Product, engineering, operations"
 scale: "8 D2C brands"
 tagline: "Internal order-management and warehouse tools that close the gaps left by third-party systems."
 order: 12
+areas: [ops]
 featured: false
 metrics:
   - value: "10 min"

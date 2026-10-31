@@ -7,6 +7,7 @@ team: "Product, engineering and operations across 8 D2C brands"
 scale: "70% of orders on fast delivery pan India; 40% of Bangalore orders by 2-hour dark-store delivery"
 tagline: "Serviceability, routing, warehouse and logistics flows behind same-day, next-day and 2-hour delivery."
 order: 4
+areas: [ops, d2c]
 featured: true
 metrics:
   - value: "89%+"

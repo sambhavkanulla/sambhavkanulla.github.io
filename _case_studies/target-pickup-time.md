@@ -7,6 +7,7 @@ team: "Product, data science, engineering"
 scale: "2.5M+ orders a day, 200k+ drivers, 350k+ restaurants"
 tagline: "A shared pickup target for drivers and restaurants, backed by an ML prep-time model."
 order: 1
+areas: [ops]
 featured: true
 metrics:
   - value: "-34%"
