@@ -4,14 +4,13 @@
 # ------------------------------------------------------------
 
 name: "Sambhav Kanulla"
-role: "Associate Director of Product"
+role: "Product Leader"
 location: "Bangalore, India"
 open_to: "Open to Director / Head of Product roles in E-commerce, D2C, Marketplace and Retail. Open to remote."
 
 # Keyword lines under your name on the Home page (one line each)
 keywords:
   - "E-COMM | QUICK-COMM | SUPPLY CHAIN | LOGISTICS | AI/ML"
-  - "STRATEGY | ROADMAP | B2B | B2C | UI/UX | AGILE"
 
 # Credential tags on the Home page
 credentials:
@@ -134,5 +133,5 @@ strengths:
 
 # Shown in the header block on the Home page
 education:
-  - "MBA from IIM Udaipur"
-  - "B.Tech from VNIT Nagpur"
+  - "IIM Udaipur (MBA)"
+  - "VNIT Nagpur (B.Tech)"
