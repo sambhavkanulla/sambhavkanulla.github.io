@@ -5,7 +5,7 @@ period: "2022-2025"
 role: "Group Product Manager, assignment algorithm and delivery products"
 team: "Product, data science, engineering, operations"
 scale: "2.5M+ orders a day; loyalty program with 14M+ users"
-tagline: "A redesigned driver-allocation algorithm and Optimized Delivery, which became Free Delivery for loyalty members members."
+tagline: "A redesigned driver-allocation algorithm and Optimized Delivery, which became Free Delivery for loyalty members."
 order: 2
 areas: [ops]
 featured: true
@@ -28,7 +28,7 @@ I owned the order-driver assignment algorithm and the delivery products for 200k
 
 - **Assignment algorithm:** revamped driver search and allocation for speed and cost
 - **Optimized Delivery:** ideated, designed and implemented the product
-- **loyalty launch:** strategy and MVP of Free Delivery for loyalty members members
+- **loyalty launch:** strategy and MVP of Free Delivery for loyalty members
 
 <!-- ADD: how Optimized Delivery works at a high level, the main trade-off (speed vs. cost, early vs. late deliveries), and how you tested it. -->
 

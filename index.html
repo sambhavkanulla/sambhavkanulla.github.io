@@ -69,6 +69,6 @@ title: "Product Leader"
     {% endif %}{% endfor %}
   </div>
   {% assign total = all_studies | where_exp: "c", "c.areas contains area.key" | size %}
-  <p class="area-more"><a href="{{ '/case-studies/' | relative_url }}#{{ area.key }}">All {{ total }} case studies in this area &rarr;</a></p>
+  <p class="area-more"><a href="{{ '/case-studies/' | relative_url }}#{{ area.key }}">See all case studies in this area ({{ total }}) &rarr;</a></p>
 </section>
 {% endfor %}
