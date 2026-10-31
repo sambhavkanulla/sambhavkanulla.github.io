@@ -1,4 +1,4 @@
-<a class="card" href="{{ include.cs.url | relative_url }}">
+<a class="card" href="{{ include.cs.url | relative_url }}" data-areas="{{ include.cs.areas | join: ' ' }}"{% unless include.cs.featured or include.all %} data-hide-in-all{% endunless %}>
   <h3>{{ include.cs.title }}</h3>
   <p>{{ include.cs.tagline }}</p>
   {% if include.cs.metrics %}<p class="card-metric"><strong>{{ include.cs.metrics[0].value }}</strong> {{ include.cs.metrics[0].label }}</p>{% endif %}

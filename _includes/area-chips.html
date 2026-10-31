@@ -1,0 +1,8 @@
+<nav class="area-chips" data-area-filter{% if include.scroll %} data-scroll="{{ include.scroll }}"{% endif %} aria-label="Domain Areas">
+  <span class="chips-label">Domain Areas</span>
+  <button type="button" class="chip is-active" data-area="all" aria-pressed="true">All</button>
+  {% for area in site.data.areas %}<button type="button" class="chip" data-area="{{ area.key }}" aria-pressed="false">{{ area.short }}</button>{% endfor %}
+</nav>
+<div class="area-blurbs">
+  {% for area in site.data.areas %}<p class="area-blurb" data-areas="{{ area.key }}" data-hide-in-all><strong>{{ area.title }}.</strong> {{ area.blurb }}</p>{% endfor %}
+</div>

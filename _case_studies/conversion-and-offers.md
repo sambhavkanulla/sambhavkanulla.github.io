@@ -8,7 +8,7 @@ scale: "$18.5M (₹175 Cr) fashion D2C brand"
 tagline: "Cart, offers and post-order products that lifted conversion, order value and customer satisfaction."
 order: 8
 areas: [d2c]
-featured: true
+featured: false
 metrics:
   - value: "+26%"
     label: "conversion"

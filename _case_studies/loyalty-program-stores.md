@@ -8,7 +8,7 @@ scale: "350k+ restaurants"
 tagline: "Store selection, accounting and settlement products for the loyalty offering, automated at scale."
 order: 18
 areas: [b2b]
-featured: true
+featured: false
 metrics:
   - value: "3,000"
     label: "man-hours saved per day"

@@ -19,10 +19,7 @@ title: "Product Leader"
   </p>
 </section>
 
-<nav class="area-chips" aria-label="Areas of experience">
-  <span class="chips-label">Experience in</span>
-  {% for area in site.data.areas %}<a href="#{{ area.key }}">{{ area.short }}</a>{% endfor %}
-</nav>
+{% include area-chips.html scroll="value" %}
 
 <section id="contact" class="contact">
   <div class="contact-card">
@@ -51,24 +48,21 @@ title: "Product Leader"
 </section>
 
 {% assign all_studies = site.case_studies | sort: "order" %}
-{% for area in site.data.areas %}
-<section id="{{ area.key }}" class="area">
-  <h2>{{ area.title }}</h2>
-  <p class="area-blurb">{{ area.blurb }}</p>
-  <h3 class="sub">Value added with products</h3>
+<section id="value">
+  <h2 class="impact-title">Value Added with Products</h2>
   <div class="proof">
-    {% for item in p.impact %}{% if item.area == area.key %}
+    {% for item in p.impact %}
     {% include tile.html item=item %}
-    {% endif %}{% endfor %}
+    {% endfor %}
   </div>
-  <h3 class="sub">Featured case studies</h3>
-  <div class="cards featured-cards">
-    {% assign n = 0 %}
-    {% for cs in all_studies %}{% if cs.featured and cs.areas contains area.key %}
-    {% include case-card.html cs=cs %}
-    {% endif %}{% endfor %}
-  </div>
-  {% assign total = all_studies | where_exp: "c", "c.areas contains area.key" | size %}
-  <p class="area-more"><a href="{{ '/case-studies/' | relative_url }}#{{ area.key }}">See all case studies in this area ({{ total }}) &rarr;</a></p>
 </section>
-{% endfor %}
+
+<section id="work">
+  <h2>Case Studies</h2>
+  <div class="cards featured-cards">
+    {% for cs in all_studies %}
+    {% include case-card.html cs=cs %}
+    {% endfor %}
+  </div>
+  <p class="area-more"><a href="{{ '/case-studies/' | relative_url }}" data-cs-link="{{ '/case-studies/' | relative_url }}">See all case studies &rarr;</a></p>
+</section>

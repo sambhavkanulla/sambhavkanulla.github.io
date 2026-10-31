@@ -36,6 +36,7 @@ resume_file: "/Sambhav_Kanulla_Resume.pdf"
 # "Value Added with Products" tiles, shown inside each area on the Home page.
 # area: ops | d2c | b2b (see _data/areas.yml)
 # icon: trend | chart | coin | unlock | support | clock | box | ticket
+# top: true = also shown in the "All" view on the Home page
 # tone: up (increased) | down (reduced) | save (saved) | scale (silver)
 impact:
   - value: "7x"
@@ -43,41 +44,49 @@ impact:
     icon: "trend"
     tone: "up"
     area: "ops"
+    top: true
   - value: "₹3 Cr"
     label: "saved in logistics costs (about $300k)"
     icon: "coin"
     tone: "save"
     area: "ops"
+    top: true
   - value: "32%"
     label: "working capital released through inventory planning"
     icon: "unlock"
     tone: "save"
     area: "ops"
+    top: true
   - value: "-90%"
     label: "customer support tickets"
     icon: "support"
     tone: "down"
     area: "ops"
+    top: true
   - value: "-12 min"
     label: "average delivery time"
     icon: "clock"
     tone: "down"
     area: "ops"
+    top: true
   - value: "2.5M+"
     label: "orders a day on products I owned"
     icon: "box"
     tone: "scale"
     area: "ops"
+    top: true
   - value: "6M+"
     label: "launch vouchers and leads managed"
     icon: "ticket"
     tone: "scale"
     area: "ops"
+    top: true
   - value: "3x"
     label: "revenue growth for a D2C fashion brand"
     icon: "chart"
     tone: "up"
     area: "d2c"
+    top: true
   - value: "4x"
     label: "revenue added by flash sale tools"
     icon: "trend"

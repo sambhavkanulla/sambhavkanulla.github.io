@@ -1,4 +1,4 @@
-<div class="proof-item">
+<div class="proof-item" data-areas="{{ include.item.area }}"{% unless include.item.top %} data-hide-in-all{% endunless %}>
   <div class="proof-top">
     <span class="ico tone-{{ include.item.tone }}" aria-hidden="true">
       {% case include.item.icon %}
