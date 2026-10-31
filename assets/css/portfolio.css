@@ -65,9 +65,11 @@ h3 { font-size: 1.15rem; margin: 0 0 0.45em; line-height: 1.3; font-weight: 700;
 .open-to { color: var(--muted); font-size: 0.95rem; margin: 6px 0 0; }
 
 /* proof points */
-.proof { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 24px 0 8px; }
+.proof { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 16px; margin: 0 0 8px; }
 .proof-item { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 20px; box-shadow: var(--shadow); }
 .proof-value { font-size: 2.1rem; font-weight: 800; line-height: 1.05; letter-spacing: -0.03em; background: linear-gradient(135deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.impact-title { margin: 40px 0 16px; }
+.proof-source { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--accent); margin-top: 12px; }
 .proof-label { font-size: 0.9rem; color: var(--muted); margin-top: 8px; line-height: 1.45; }
 
 /* cards */

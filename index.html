@@ -18,13 +18,17 @@ title: "Product Leader"
   <ul class="creds">{% for c in p.credentials %}<li>{{ c }}</li>{% endfor %}</ul>
 </section>
 
-<section class="proof">
-  {% for item in p.proof_points %}
-  <div class="proof-item">
-    <div class="proof-value">{{ item.value }}</div>
-    <div class="proof-label">{{ item.label }}</div>
+<section>
+  <h2 class="impact-title">Product impact</h2>
+  <div class="proof">
+    {% for item in p.impact %}
+    <div class="proof-item">
+      <div class="proof-value">{{ item.value }}</div>
+      <div class="proof-label">{{ item.label }}</div>
+      <div class="proof-source">{{ item.source }}</div>
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
 </section>
 
 <section>

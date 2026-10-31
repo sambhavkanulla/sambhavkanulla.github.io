@@ -33,16 +33,32 @@ linkedin: "https://www.linkedin.com/in/sambhavkanulla/"
 # Resume button. Leave as "" to hide the button.
 resume_file: "/Sambhav_Kanulla_Resume.pdf"
 
-# The four numbers shown under the headline
-proof_points:
-  - value: "28"
-    label: "person product and tech pod at TMRW"
+# Impact highlight cards on the Home page (value, label, and where it happened)
+impact:
+  - value: "7x"
+    label: "sales growth in 3 quarters after the WOW launch"
+    source: "Coupang Eats"
+  - value: "3x"
+    label: "revenue growth for the WROGN brand"
+    source: "TMRW"
+  - value: "₹3 Cr"
+    label: "saved in 3PL costs (about $300k)"
+    source: "TMRW"
+  - value: "32%"
+    label: "working capital released through inventory planning"
+    source: "Purplle"
+  - value: "-90%"
+    label: "customer support tickets after the Post Order launch"
+    source: "TMRW"
+  - value: "-12 min"
+    label: "average delivery time with Optimized Delivery"
+    source: "Coupang Eats"
   - value: "2.5M+"
-    label: "orders a day at Coupang Eats"
-  - value: "8+"
-    label: "D2C brands on my platforms"
-  - value: "12+"
-    label: "years in product"
+    label: "orders a day on products I owned"
+    source: "Coupang Eats"
+  - value: "6M+"
+    label: "JioPhone vouchers and leads managed"
+    source: "Reliance Jio"
 
 # The About page
 about:
