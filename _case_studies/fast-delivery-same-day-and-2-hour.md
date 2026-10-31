@@ -1,11 +1,11 @@
 ---
-title: "Same-day, next-day and 2-hour delivery for D2C brands"
+title: "Fast Delivery"
 company: "TMRW, House of Brands"
 period: "2025-present"
 role: "Associate Director of Product, ops-tech products"
 team: "Product, engineering and operations across 8 D2C brands"
 scale: "70% of orders on fast delivery pan India; 40% of Bangalore orders by 2-hour dark-store delivery"
-tagline: "Pre-order serviceability, order routing, warehouse and logistics integrations that make fast delivery work for fashion D2C."
+tagline: "Serviceability, routing, warehouse and logistics flows behind same-day, next-day and 2-hour delivery."
 order: 4
 featured: true
 metrics:
@@ -21,12 +21,12 @@ metrics:
 
 ## Context
 
-Fast delivery depends on several systems agreeing with each other before and after the order: serviceability checks at the storefront, order routing and allocation, warehouse management and logistics. I led the products that connect them, integrating closely with third-party OMS, WMS, LMS and RMS partners such as Unicommerce, Increff, Clickpost, Shiprocket and Pragma.
+Fast delivery needs serviceability checks, order routing, warehousing and logistics to work together. I led the products that connect them, integrating with third-party OMS, WMS, LMS and RMS partners such as Unicommerce, Increff, Clickpost, Shiprocket and Pragma.
 
 ## What I owned
 
-- Same-day, next-day and 2-hour delivery products, including pre-order serviceability and post-order fulfilment flows
-- Integrations and API flows across order routing, warehouse management and logistics management
+- Same-day, next-day and 2-hour delivery, from pre-order serviceability to post-order fulfilment
+- Integrations and API flows across order routing, warehouse and logistics management
 - Custom WMS tools that close process gaps left by third-party systems
 
 <!-- ADD: the design of the serviceability check and how orders are routed to the right node. -->
@@ -37,9 +37,9 @@ Fast delivery depends on several systems agreeing with each other before and aft
 
 ## Results
 
-- 70% of orders processed on fast-delivery fulfilment pan India, with 89%+ EDD accuracy
-- 83% reduction in RTO
-- 40% of Bangalore's orders fulfilled by 2-hour hyperlocal dark-store delivery, with 95% EDD accuracy and 15% more orders per day
+- 70% of orders on fast-delivery fulfilment pan India, with 89%+ EDD accuracy
+- RTO down 83%
+- Bangalore: 40% of orders by 2-hour dark-store delivery, 95% EDD accuracy, orders per day up 15%
 - Custom WMS tools cut processing time by 80%
 
 ## What I would do differently

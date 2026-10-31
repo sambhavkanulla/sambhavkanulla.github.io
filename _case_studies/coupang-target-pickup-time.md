@@ -1,11 +1,11 @@
 ---
-title: "Target Pickup Time and ML prep-time guidance"
+title: "Target Pickup Time"
 company: "Coupang Eats"
 period: "2022-2025"
 role: "Group Product Manager, restaurant and delivery products"
 team: "Product, data science, engineering"
 scale: "2.5M+ orders a day, 200k+ drivers, 350k+ restaurants"
-tagline: "A shared pickup target for drivers and restaurants, backed by an ML model that tells restaurants how long to take."
+tagline: "A shared pickup target for drivers and restaurants, backed by an ML prep-time model."
 order: 1
 featured: true
 metrics:
@@ -21,11 +21,12 @@ metrics:
 
 ## Context
 
-Coupang Eats is South Korea's fastest food delivery service. I led the restaurant and delivery efficiency products, processing 2.5M+ orders a day with 200k+ drivers and 350k+ restaurants. Food delivery is hyperlocal, so every minute a driver or a dish spends waiting shows up in delivery speed.
+Coupang Eats is South Korea's fastest food delivery service. I led restaurant and delivery efficiency products across 2.5M+ orders a day, 200k+ drivers and 350k+ restaurants.
 
 ## What I owned
 
-I formulated a common **Target Pickup Time** that drivers and restaurants both work to, and led the ML-based **Prep Time Guidance** system built with data science models to help restaurants plan their preparation.
+- A common **Target Pickup Time** that drivers and restaurants both work to
+- ML-based **Prep Time Guidance**, built with data science models, to help restaurants plan preparation
 
 <!-- ADD (optional): the specific problem you saw in the data, e.g. how long drivers were waiting before this. Keep it to what you can share publicly. -->
 
@@ -35,9 +36,9 @@ I formulated a common **Target Pickup Time** that drivers and restaurants both w
 
 ## Results
 
-- Cut restaurant food-pickup wait by 34% and driver wait time by 26%
-- Improved overall delivery speed by 9 minutes and ETA accuracy by 27%
-- A Korean patent has been applied for on the ML-based food prep-time guidance and communication product
+- Restaurant pickup wait down 34%, driver wait down 26%
+- Delivery 9 minutes faster, ETA accuracy up 27%
+- Korean patent applied for the ML prep-time guidance product
 
 ## What I would do differently
 

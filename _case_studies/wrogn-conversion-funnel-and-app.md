@@ -1,11 +1,11 @@
 ---
-title: "WROGN: conversion funnel and mobile app launch"
+title: "WROGN: Funnel and App"
 company: "TMRW, House of Brands"
 period: "2025-present"
 role: "Associate Director of Product, leading the growth product pod"
 team: "28-member product and tech pod across 4 growth brands and 8 ops-tech brands"
 scale: "WROGN: ₹260 Cr (about $27M) brand; online D2C sales of about ₹60 Cr (about $6.3M)"
-tagline: "End-to-end web and app conversion funnel products, platform tools and growth hacks for a fashion D2C brand."
+tagline: "Web and app conversion funnel, platform tools and growth hacks for a fashion D2C brand."
 order: 3
 featured: true
 metrics:
@@ -21,13 +21,13 @@ metrics:
 
 ## Context
 
-WROGN is a fashion D2C brand within TMRW, House of Brands (ABFRL Group). I lead the product pod that builds the brand's web and app conversion funnel: landing page, product listing pages, product detail pages, cart, checkout and app installs. Almost every feature was A/B tested before launch.
+WROGN is a fashion D2C brand at TMRW, House of Brands. I lead the pod that builds its conversion funnel: landing page, listing and product pages, cart, checkout and app installs. Almost every feature was A/B tested before launch.
 
 ## What I owned
 
-- The end-to-end brand.com web and app conversion funnel products, platform tools and growth hacks
-- The launch of the **iOS and Android app**
-- Custom vertical-scroll product detail pages for special collections (for example, WROGN's IPL and FIFA jerseys)
+- The end-to-end web and app funnel products, platform tools and growth hacks
+- The **iOS and Android app** launch
+- Vertical-scroll product pages for special collections (such as the IPL and FIFA jerseys)
 - Flash Sale tools that go live with a single toggle
 
 <!-- ADD: the key problems you found in the funnel and which experiments moved the numbers most. -->
@@ -38,10 +38,10 @@ WROGN is a fashion D2C brand within TMRW, House of Brands (ABFRL Group). I lead 
 
 ## Results
 
-- Revenue up 3x, conversion up 2x and AOV up 32% on the brand's online business
-- App launch: 20%+ uplift in orders, 25% increase in revenue, 2x conversion and 4x customer retention
-- Special-collection product pages: 2x conversion and 30% higher AOV
-- Flash Sale suite: 4x revenue and 3x ROAS during sale events
+- Online business: revenue 3x, conversion 2x, AOV up 32%
+- App launch: orders up 20%+, revenue up 25%, conversion 2x, customer retention 4x
+- Special-collection pages: conversion 2x, AOV up 30%
+- Flash Sale suite: revenue 4x, ROAS 3x during sale events
 
 ## What I would do differently
 

@@ -1,11 +1,11 @@
 ---
-title: "AI Operations Optimizer and Open-to-Buy planning"
+title: "AI Operations Optimizer"
 company: "TMRW, House of Brands"
 period: "2025-present"
 role: "Associate Director of Product, AI-based operations tools"
 team: "Product, engineering, data and operations teams across 8 D2C brands"
 scale: "Multi-tenant AI tools used across 8 D2C brands"
-tagline: "An AI-based supply-chain control tower and a purchase-planning tool that standardise how 8 brands run operations and buy inventory."
+tagline: "An AI control tower and a purchase-planning tool that standardise operations and buying across 8 brands."
 order: 6
 featured: true
 metrics:
@@ -19,12 +19,12 @@ metrics:
 
 ## Context
 
-Running operations for several D2C brands creates a stream of operational issues and planning decisions. I built AI-based B2B tools for business control, planning, growth, operations, analytics and root-cause analysis.
+Running operations for several D2C brands creates a steady stream of issues and planning decisions. I built AI-based B2B tools for business control, planning, operations, analytics and root-cause analysis.
 
 ## What I owned
 
-- **Operations Optimizer / Control Tower:** an AI-based supply-chain operations tool, including tools for inventory allocation, monitoring and efficiency improvements. It is also used for post-game and root-cause analysis of operational issues
-- **Open-to-Buy (OTB):** an AI-based tool across 8 brands that standardises purchase planning and improves purchase efficiency, with category-level forecasting and brand spend on inventory
+- **Operations Optimizer / Control Tower:** AI-based supply-chain tools for inventory allocation, monitoring and efficiency, also used for root-cause analysis of operational issues
+- **Open-to-Buy (OTB):** AI-based purchase planning across 8 brands, with category-level forecasting and brand spend on inventory
 
 <!-- ADD: the key decisions the AI tools make or recommend, who uses them daily, and how you built trust in the recommendations. -->
 
@@ -34,8 +34,8 @@ Running operations for several D2C brands creates a stream of operational issues
 
 ## Results
 
-- Operations speed up 5x and order-fulfilment accuracy at 98%
-- A single, standard purchase-planning approach across 8 brands
+- Operations speed up 5x, order fulfilment accuracy at 98%
+- One standard purchase-planning approach across 8 brands
 
 ## What I would do differently
 

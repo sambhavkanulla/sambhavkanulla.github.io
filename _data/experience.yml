@@ -9,15 +9,15 @@
   location: "Bangalore, India"
   title: "Associate Director of Product"
   dates: "Apr 2025 - Present"
-  summary: "Building next-gen conversion funnel and post-order products for fashion D2C brands with about $150M (₹1,400 Cr) in combined revenue, part of the ABFRL Group (about $1B, ₹9k Cr)."
+  summary: "Conversion funnel and post-order products for fashion D2C brands with about $150M (₹1,400 Cr) combined revenue, part of the ABFRL Group (about $1B, ₹9k Cr)."
   highlights:
-    - "Lead a 28-member product and tech pod (PMs, analysts, designers, developers, QAs) building growth products for 4 brands and ops tech for 8 D2C brands"
-    - "WROGN: grew revenue 3x, conversion 2x and AOV 32% through funnel products and growth hacks; launched the iOS and Android app"
-    - "Same-day, next-day and 2-hour delivery: 70% of orders on fast delivery pan India, 83% lower RTO"
-    - "Post Order Experience for Shopify brands (My Orders, home-grown Returns Management System and order orchestration): cut CX tickets by 90% and saved ₹3 Cr (about $300k) in 3PL costs"
-    - "AI-based Operations Optimizer and Open-to-Buy tools across 8 brands"
-    - "Coach and mentor 6 product managers, 2 product analysts and 3 product designers"
-  award: "ABFRL Customer Centricity Excellence with Tech award for the Bewakoof customer experience"
+    - "Lead a 28-member product and tech pod: growth products for 4 brands, ops tech for 8"
+    - "WROGN: revenue 3x, conversion 2x, AOV up 32%; launched the iOS and Android app"
+    - "Fast delivery: 70% of orders pan India, RTO down 83%"
+    - "Post Order Experience for Shopify brands: CX tickets down 90%, ₹3 Cr (about $300k) saved in 3PL costs"
+    - "AI Operations Optimizer and Open-to-Buy tools across 8 brands"
+    - "Mentor 6 product managers, 2 product analysts and 3 product designers"
+  award: "ABFRL Customer Centricity Excellence with Tech award (Bewakoof customer experience)"
   case_studies:
     - wrogn-conversion-funnel-and-app
     - fast-delivery-same-day-and-2-hour
@@ -28,13 +28,13 @@
   location: "Seoul, South Korea"
   title: "Group Product Manager"
   dates: "Apr 2022 - Apr 2025"
-  summary: "Led restaurant and delivery efficiency products, and the order-driver assignment algorithm, for South Korea's fastest food delivery service."
+  summary: "Restaurant and delivery efficiency products, and the driver-assignment algorithm, for South Korea's fastest food delivery service."
   highlights:
-    - "Owned products for 200k+ delivery drivers and 350k+ restaurants, processing 2.5M+ orders a day"
-    - "Target Pickup Time and ML prep-time guidance cut restaurant pickup wait by 34% and driver wait by 26%"
-    - "Optimized Delivery cut average delivery time by 12 minutes and later became the flagship Free Delivery for Coupang WOW members"
-    - "Launched Eats inside the WOW loyalty program: 7x sales in 3 quarters"
-  award: "Korean patent applied for ML-based food prep-time guidance. Best Impactful Product of the Quarter for the 3PL vendor portal and rider app"
+    - "Owned products for 200k+ drivers and 350k+ restaurants across 2.5M+ orders a day"
+    - "Target Pickup Time and ML prep-time guidance: restaurant pickup wait down 34%, driver wait down 26%"
+    - "Optimized Delivery: delivery 12 minutes faster, later launched as Free Delivery for WOW"
+    - "WOW launch: sales up 7x in 3 quarters"
+  award: "Korean patent applied for ML prep-time guidance. Best Impactful Product of the Quarter for the 3PL vendor portal and rider app"
   case_studies:
     - coupang-target-pickup-time
     - coupang-optimized-delivery-and-wow
@@ -43,36 +43,36 @@
   location: "Mumbai, India"
   title: "Senior Product Manager"
   dates: "Nov 2019 - Apr 2022"
-  summary: "Built end-to-end in-house operations products for a $31M business, supporting 10x demand growth in two years."
+  summary: "In-house operations products for a $31M business, supporting 10x demand growth in two years."
   highlights:
-    - "Led a 10-member team building catalog, category, supply-chain and finance products for 9k+ orders a day, with surge capacity of 7x"
-    - "Built a home-grown WMS from scratch: order-to-dispatch time down 73.6% and operational capacity up 4x"
-    - "Courier allocation algorithm cut 3PL delivery cost by 23%"
-    - "Inventory planning changes released 32% working capital; auto-replenishment saved 35 man-hours a day"
-    - "Launched same-day and next-day delivery: 17% more orders a day at pilot locations"
-  award: "Life-saver award for the org-wide Covid-19 compliance transformation. Best Product of the Quarter for demand forecasting and inventory products"
+    - "Led a 10-member team: catalog, category, supply-chain and finance products for 9k+ orders a day"
+    - "Home-grown WMS: order-to-dispatch time down 73.6%, capacity up 4x"
+    - "Courier allocation algorithm: 3PL delivery cost down 23%"
+    - "Inventory planning released 32% working capital; auto-replenishment saved 35 man-hours a day"
+    - "Same-day and next-day delivery: orders per day up 17% at pilot locations"
+  award: "Life-saver award (Covid-19 compliance transformation). Best Product of the Quarter (demand forecasting and inventory)"
   case_studies: []
 
 - company: "Reliance Jio / Digital / Retail"
   location: "Mumbai, India"
   title: "Product Manager"
   dates: "Apr 2017 - Nov 2019"
-  summary: "Transformed end-to-end supply-chain products for India's largest retailer and the launch of the world's largest 4G telecom network."
+  summary: "Supply-chain products for India's largest retailer and the launch of the world's largest 4G network."
   highlights:
-    - "Managed supply chain and logistics products across 11,045+ locations, handling 10M+ inventory movements and sales a day"
+    - "Supply chain and logistics across 11,045+ locations, 10M+ inventory movements and sales a day"
     - "JioPhone launch: voucher-based order aggregation and supply chain for 6M+ phones"
-    - "FTTx (fibre to the home) launch supply chain for 50k+ devices"
-    - "Built store super apps (JP Works and JioWorks) that cut operational activity time by 83% at Jio Points"
-    - "Automated onboarding and authorization for 1M+ supply-chain users"
+    - "FTTx launch: supply chain for 50k+ devices"
+    - "Store super apps cut operational activity time by 83% at Jio Points"
+    - "Automated onboarding for 1M+ supply-chain users"
   award: ""
   case_studies:
     - jiophone-launch-supply-chain
 
 - company: "Earlier experience"
   location: "India"
-  title: "Product and Pre-Sales Intern (TechProcess, Worldline) and Product Design Engineer (Tata Technologies)"
+  title: "Product Design Engineer, Tata Technologies · Product and Pre-Sales Intern, TechProcess"
   dates: "2012 - 2016"
-  summary: "Product design engineering at Tata Technologies, Pune (Jul 2012 - Jun 2015), and a product and pre-sales internship at TechProcess Payment Services, Mumbai (Apr - May 2016)."
+  summary: "Tata Technologies, Pune (Jul 2012 - Jun 2015). TechProcess Payment Services, Mumbai (Apr - May 2016)."
   highlights: []
   award: ""
   case_studies: []

@@ -9,41 +9,39 @@ location: "Bangalore, India"
 open_to: "Open to Director / Head of Product roles in E-commerce, D2C, Marketplace and Retail. Open to remote."
 
 # The big line at the top of the Home page
-headline: "Product leader building commerce growth and supply-chain products at scale."
-subheadline: "12+ years across D2C fashion, food delivery, quick commerce, retail and telecom. I lead product teams that grow conversion on the storefront and speed up fulfilment behind it."
+headline: "Product leader for commerce, delivery and supply chain."
+subheadline: "12+ years building D2C, delivery and retail products. I grow conversion on the storefront and speed up fulfilment behind it."
 
 # Contact (the phone number is deliberately left out of the public site)
 email: "sambhavkanulla91@gmail.com"
 linkedin: "https://www.linkedin.com/in/sambhavkanulla/"
 
-# Resume button. After you upload a PDF into the assets folder,
-# put its path here, e.g. "/assets/Sambhav_Kanulla_Resume.pdf".
-# Leave it as "" to hide the button.
+# Resume button. Leave as "" to hide the button.
 resume_file: "/Sambhav_Kanulla_Resume.pdf"
 
 # The four numbers shown under the headline
 proof_points:
   - value: "28"
-    label: "member product and tech pod led at TMRW"
+    label: "person product and tech pod at TMRW"
   - value: "2.5M+"
-    label: "orders a day powered by products I owned at Coupang Eats"
+    label: "orders a day at Coupang Eats"
   - value: "8+"
-    label: "D2C brands running on multi-tenant products I built"
+    label: "D2C brands on my platforms"
   - value: "12+"
-    label: "years in product, supply chain and growth"
+    label: "years in product"
 
 # The About page
 about:
-  - "I am a product leader with 12+ years of experience building products for e-commerce, D2C, food delivery, retail and telecom. Most of my work sits where the customer experience meets operations: conversion funnels and offers on the front end, and order routing, warehousing, delivery and returns behind it."
-  - "Today I lead a 28-member product and tech pod at TMRW, House of Brands (ABFRL Group), building growth products for 4 D2C brands and operations-tech products for 8. Before that I led restaurant and delivery products and the driver-assignment algorithm at Coupang Eats in Seoul, and earlier built supply-chain and inventory products at Purplle and Reliance Jio/Retail."
-  - "I coach and mentor product managers, analysts and designers, and I have hired and onboarded 15+ product managers and business analysts."
+  - "Product leader with 12+ years across e-commerce, D2C, food delivery, retail and telecom. I work where customer experience meets operations: conversion and offers on the front end, fulfilment, delivery and returns behind it."
+  - "At TMRW I lead a 28-member product and tech pod building growth products for 4 D2C brands and ops tech for 8. Before that: Coupang Eats (Seoul), Purplle and Reliance Jio/Retail."
+  - "I coach product managers, analysts and designers, and have hired and onboarded 15+ product managers and business analysts."
 
 strengths:
-  - "Growth and conversion funnels for D2C brands"
+  - "Growth and conversion for D2C brands"
   - "Order management, warehousing and last-mile delivery"
-  - "Algorithms and ML-based optimization (driver allocation, prep time, courier allocation)"
+  - "Algorithms and ML (driver allocation, prep time, courier allocation)"
   - "AI-based operations tools and control towers"
-  - "Multi-tenant platforms and 3rd-party integrations (OMS, WMS, LMS, RMS)"
+  - "Multi-tenant platforms and partner integrations"
   - "Leading and mentoring product teams"
 
 education:
