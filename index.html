@@ -28,7 +28,6 @@ title: "Product Leader"
     <p class="cta-row">
       <a class="btn" href="mailto:{{ p.email }}">{{ p.email }}</a>
       <a class="btn btn-ghost" href="{{ p.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
-      {% if p.resume_file != "" %}<a class="btn btn-ghost" href="{{ p.resume_file | relative_url }}">Resume (PDF)</a>{% endif %}
     </p>
   </div>
 </section>
