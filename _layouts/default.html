@@ -12,7 +12,7 @@
 <body>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="brand" href="{{ '/' | relative_url }}">{{ site.data.profile.name }}</a>
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.data.profile.name }} - home" title="{{ site.data.profile.name }}"><span class="monogram">{% assign parts = site.data.profile.name | split: " " %}{{ parts.first | slice: 0 }}{{ parts.last | slice: 0 }}</span></a>
       <nav class="nav">
         <a href="{{ '/case-studies/' | relative_url }}"{% if page.url contains '/case-studies/' %} class="active" aria-current="page"{% endif %}>Case studies</a>
         <a href="{{ '/experience/' | relative_url }}"{% if page.url contains '/experience/' %} class="active" aria-current="page"{% endif %}>Experience</a>

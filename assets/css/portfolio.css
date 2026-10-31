@@ -292,3 +292,8 @@ main > section.area > h2 { align-items: center; }
 .about-contact-label { font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--muted); font-weight: 600; margin: 0 0 12px !important; }
 .about-contact .cta-row { margin: 0; }
 .about-layout .prose .about-contact p { font-size: 0.74rem; color: var(--muted); }
+
+/* header brand: monogram so the full name only appears once (in the hero) */
+.brand .monogram { display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border: 1px solid var(--line-strong); border-radius: 10px; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.14em; padding-left: 0.14em; color: var(--text); background: rgba(255,255,255,0.03); transition: border-color 0.15s, background 0.15s; }
+.brand:hover .monogram { border-color: var(--accent); background: rgba(255,255,255,0.07); }
+@media (max-width: 640px) { .header-inner { flex-direction: row; align-items: center; justify-content: space-between; } .nav { width: auto; justify-content: flex-end; } }
