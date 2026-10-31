@@ -1,0 +1,17 @@
+---
+layout: page
+title: "Case studies"
+intro: "Products I have owned end to end, with the problem, the decisions and the results."
+permalink: /case-studies/
+---
+{% assign studies = site.case_studies | sort: "order" %}
+<div class="cards">
+  {% for cs in studies %}
+  <a class="card" href="{{ cs.url | relative_url }}">
+    <p class="eyebrow">{{ cs.company }} · {{ cs.period }}</p>
+    <h3>{{ cs.title }}</h3>
+    <p>{{ cs.tagline }}</p>
+    {% if cs.metrics %}<p class="card-metric"><strong>{{ cs.metrics[0].value }}</strong> {{ cs.metrics[0].label }}</p>{% endif %}
+  </a>
+  {% endfor %}
+</div>

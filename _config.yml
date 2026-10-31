@@ -1,0 +1,32 @@
+# ------------------------------------------------------------
+# SITE SETTINGS  (you rarely need to touch this file)
+# ------------------------------------------------------------
+title: "Sambhav Kanulla"
+description: "Product leader (12+ yrs) building commerce growth and supply-chain products for D2C, marketplace and hyperlocal delivery."
+url: "https://sambhavkanulla.github.io"
+baseurl: ""
+lang: en
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections:
+  case_studies:
+    output: true
+    permalink: /case-studies/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: case_studies
+    values:
+      layout: case_study
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+exclude:
+  - README.md
+  - EDIT-GUIDE.md

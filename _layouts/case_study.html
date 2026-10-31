@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<article class="case">
+  <p class="crumb"><a href="{{ '/case-studies/' | relative_url }}">&larr; All case studies</a></p>
+  <p class="eyebrow">{{ page.company }} · {{ page.period }}</p>
+  <h1>{{ page.title }}</h1>
+  <p class="lead">{{ page.tagline }}</p>
+
+  {% if page.metrics %}
+  <div class="metrics">
+    {% for m in page.metrics %}
+    <div class="metric">
+      <div class="metric-value">{{ m.value }}</div>
+      <div class="metric-label">{{ m.label }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <dl class="facts">
+    <div><dt>My role</dt><dd>{{ page.role }}</dd></div>
+    {% if page.team %}<div><dt>Team</dt><dd>{{ page.team }}</dd></div>{% endif %}
+    {% if page.scale %}<div><dt>Scale</dt><dd>{{ page.scale }}</dd></div>{% endif %}
+  </dl>
+
+  <div class="prose">
+    {{ content }}
+  </div>
+
+  <p class="crumb"><a href="{{ '/case-studies/' | relative_url }}">&larr; All case studies</a></p>
+</article>

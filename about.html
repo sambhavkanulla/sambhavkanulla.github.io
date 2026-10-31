@@ -1,0 +1,15 @@
+---
+layout: page
+title: "About"
+permalink: /about/
+---
+{% assign p = site.data.profile %}
+<div class="prose">
+  {% for para in p.about %}<p>{{ para }}</p>{% endfor %}
+
+  <h2>What I bring</h2>
+  <ul>{% for s in p.strengths %}<li>{{ s }}</li>{% endfor %}</ul>
+
+  <h2>Education</h2>
+  <ul>{% for e in p.education %}<li>{{ e }}</li>{% endfor %}</ul>
+</div>
