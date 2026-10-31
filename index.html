@@ -15,7 +15,6 @@ title: "Product Leader"
     {% if p.resume_file != "" %}<a class="btn btn-ghost" href="{{ p.resume_file | relative_url }}">Download resume (PDF)</a>{% endif %}
     <a class="btn btn-ghost" href="{{ '/contact/' | relative_url }}">Get in touch</a>
   </p>
-  <ul class="creds">{% for c in p.credentials %}<li>{{ c }}</li>{% endfor %}</ul>
 </section>
 
 <section>
