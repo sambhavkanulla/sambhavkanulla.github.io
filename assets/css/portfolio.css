@@ -287,3 +287,8 @@ main > section.area > h2 { align-items: center; }
   .hero .cta-row { margin-top: 22px; }
 }
 @media (max-width: 640px) { .hero .edu span:not(:last-of-type)::after { margin: 0 8px; } .hero .edu svg { margin-right: 8px; } .hero .edu, .hero .edu span { font-size: 0.8rem; } }
+
+.about-contact { margin-top: 26px; padding-top: 22px; border-top: 1px solid var(--line); }
+.about-contact-label { font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--muted); font-weight: 600; margin: 0 0 12px !important; }
+.about-contact .cta-row { margin: 0; }
+.about-layout .prose .about-contact p { font-size: 0.74rem; color: var(--muted); }

@@ -25,24 +25,18 @@ title: "Product Leader"
 </section>
 
 
-<section id="contact" class="contact">
-  <div class="contact-card">
-    <div>
-      <h2>Contact</h2>
-      <p class="lead">The best way to reach me is email or LinkedIn.</p>
-    </div>
-    <p class="cta-row">
-      <a class="btn" href="mailto:{{ p.email }}">{{ p.email }}</a>
-      <a class="btn btn-ghost" href="{{ p.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
-    </p>
-  </div>
-</section>
-
-<section id="about">
+<section id="about" class="about">
   <h2>About Me</h2>
   <div class="about-layout">
     <div class="prose">
       {% for para in p.about %}<p>{{ para }}</p>{% endfor %}
+      <div class="about-contact">
+        <p class="about-contact-label">Get in touch</p>
+        <p class="cta-row">
+          <a class="btn" href="mailto:{{ p.email }}">{{ p.email }}</a>
+          <a class="btn btn-ghost" href="{{ p.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+        </p>
+      </div>
     </div>
     <aside class="bring">
       <h3>What I bring</h3>
