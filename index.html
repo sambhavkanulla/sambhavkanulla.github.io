@@ -8,7 +8,7 @@ permalink: /
 <section class="hero ph-hero">
   <p class="eyebrow">{{ p.role }}</p>
   <h1 class="ph-name">{{ p.name }}</h1>
-  <p class="ph-headline">{{ L.headline }}</p>
+  {% if L.headline != "" %}<p class="ph-headline">{{ L.headline }}</p>{% endif %}
   <p class="ph-philosophy">{{ L.philosophy }}</p>
   <p class="cta-row">
     {% if p.resume_file != "" %}<a class="btn" href="{{ p.resume_file | relative_url }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7 11l5 5 5-5"/><path d="M5 20h14"/></svg>Resume (PDF)</a>{% endif %}
