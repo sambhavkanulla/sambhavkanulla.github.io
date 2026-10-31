@@ -11,9 +11,9 @@ title: "Product Leader"
   <p class="statement">{{ p.headline }}</p>
   <p class="lead">{{ p.subheadline }}</p>
   <p class="cta-row">
-    <a class="btn" href="{{ '/case-studies/' | relative_url }}">See case studies</a>
-    {% if p.resume_file != "" %}<a class="btn btn-ghost" href="{{ p.resume_file | relative_url }}">Download resume (PDF)</a>{% endif %}
-    <a class="btn btn-ghost" href="{{ '/contact/' | relative_url }}">Get in touch</a>
+    {% if p.resume_file != "" %}<a class="btn" href="{{ p.resume_file | relative_url }}">Download resume (PDF)</a>{% endif %}
+    <a class="btn btn-ghost" href="{{ '/case-studies/' | relative_url }}">Case Studies</a>
+    <a class="btn btn-ghost" href="{{ p.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
   </p>
 </section>
 
