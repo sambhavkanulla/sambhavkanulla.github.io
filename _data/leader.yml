@@ -12,16 +12,16 @@ bio:
   - "Today I lead a 28-member product and tech pod of product managers, analysts, designers, developers and QAs. We build growth products for 4 D2C brands and operations technology for 8, working directly with founders, C-suite and growth leaders of each brand on product strategy and the tech roadmap."
 
 numbers:
-  - value: "12+"
-    label: "years in e-commerce, delivery and retail"
-  - value: "28"
-    label: "people in the product and tech pod I lead"
-  - value: "8"
-    label: "D2C brands served: growth products for 4, ops tech for 8"
-  - value: "2.5M+"
-    label: "orders a day on products I owned"
   - value: "7x"
     label: "sales growth in 3 quarters"
+  - value: "3x"
+    label: "revenue growth for a D2C fashion brand"
+  - value: "-90%"
+    label: "customer support tickets"
+  - value: "₹3 Cr"
+    label: "saved in logistics costs (about $300k)"
+  - value: "2.5M+"
+    label: "orders a day on products I owned"
 
 competencies:
   - title: "Product strategy and roadmap"
