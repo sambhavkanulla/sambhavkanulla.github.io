@@ -513,3 +513,28 @@ body.show-dock .dock { opacity: 1; visibility: visible; pointer-events: auto; }
 body { padding-bottom: 0; }
 body.show-dock { padding-bottom: 76px; }
 @media (min-width: 761px) { .dock { max-width: none; } .dock .btn { max-width: 300px; } .dock { justify-content: center; } }
+
+/* ===== Home: tighten the gaps ===== */
+.ph-hero { padding: 56px 52px 48px; }
+.ph-philosophy, .ph-name + .ph-philosophy { max-width: 760px; }
+.ph-section { margin-top: 64px; }
+.ph-section > h2 { margin-bottom: 24px; }
+.ph-numbers { margin-top: 20px; }
+.ph-two { gap: 40px; align-items: stretch; }
+.ph-two .prose { display: flex; flex-direction: column; justify-content: flex-start; }
+.ph-two .prose p:last-child { margin-bottom: 0; }
+.bring { margin: 0; }
+.ph-career li { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.3fr) 150px; gap: 20px; }
+.ph-career-dates { text-align: right; white-space: nowrap; }
+.area-more { margin-top: 18px; }
+.site-footer { margin-top: 56px; }
+@media (max-width: 760px) {
+  .ph-hero { padding: 30px 20px 28px; }
+  .ph-section { margin-top: 44px; }
+  .ph-section > h2 { margin-bottom: 18px; }
+  .ph-numbers { margin-top: 16px; }
+  .ph-two { gap: 24px; }
+  .ph-career li { grid-template-columns: 1fr; gap: 2px; padding: 14px 2px; }
+  .ph-career-dates { text-align: left; }
+  .site-footer { margin-top: 40px; }
+}
