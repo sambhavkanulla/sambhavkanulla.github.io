@@ -38,10 +38,15 @@
 (function () {
   var b = document.body, h = document.querySelector('.ph-hero .name, .hero .name');
   var c = document.querySelector('.hero-cta');
-  if (c && 'IntersectionObserver' in window) new IntersectionObserver(function (e) { b.classList.toggle('show-dock', !e[0].isIntersecting && e[0].boundingClientRect.top < 0); }, { rootMargin: '-64px 0px 0px 0px' }).observe(c);
-  else if (c) b.classList.add('show-dock');
+  if (c) {
+    var tick = false, upd = function () { tick = false; b.classList.toggle('show-dock', c.getBoundingClientRect().bottom < 64); };
+    var req = function () { if (!tick) { tick = true; requestAnimationFrame(upd); } };
+    window.addEventListener('scroll', req, { passive: true });
+    window.addEventListener('resize', req);
+    upd();
+  }
   if (!h || !('IntersectionObserver' in window)) { b.classList.add('show-name'); return; }
-  new IntersectionObserver(function (e) { b.classList.toggle('show-name', !e[0].isIntersecting); }, { rootMargin: '-64px 0px 0px 0px' }).observe(h);
+  new IntersectionObserver(function (e) { b.classList.toggle('show-name', !e[e.length - 1].isIntersecting); }, { rootMargin: '-64px 0px 0px 0px' }).observe(h);
 })();
 </script>
 </body>
