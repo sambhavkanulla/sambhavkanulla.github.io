@@ -361,3 +361,5 @@ main > section.area > h2 { align-items: center; }
 .ph-name + .ph-philosophy { font-size: clamp(1.15rem, 2.4vw, 1.5rem); color: var(--text); font-weight: 600; letter-spacing: -0.015em; line-height: 1.35; max-width: 720px; margin-top: 0; }
 .ph-domains { margin-top: 24px; }
 .ph-hero .edu { margin-top: 14px; }
+.ph-hero .name { margin: 0; }
+.ph-hero .rule { margin: 26px 0 24px; }

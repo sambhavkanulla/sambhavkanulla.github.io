@@ -6,8 +6,9 @@ permalink: /
 {% assign p = site.data.profile %}
 {% assign L = site.data.leader %}
 <section class="hero ph-hero">
-  <p class="eyebrow">{{ p.role }}</p>
-  <h1 class="ph-name">{{ p.name }}</h1>
+  <h1 class="name">{{ p.name }}</h1>
+  <p class="role-box">{{ p.role }}</p>
+  <hr class="rule">
   {% if L.headline != "" %}<p class="ph-headline">{{ L.headline }}</p>{% endif %}
   <p class="ph-philosophy">{{ L.philosophy }}</p>
   <ul class="domains ph-domains" aria-label="Domain areas">
