@@ -14,9 +14,9 @@ permalink: /experience/
       {% if job.url %}<a class="logo-link" href="{{ job.url }}" target="_blank" rel="noopener"><img class="logo" src="{{ job.logo | relative_url }}" alt="{{ job.company }} logo"></a>{% else %}<img class="logo" src="{{ job.logo | relative_url }}" alt="{{ job.company }} logo">{% endif %}
       {% endif %}
       <div>
-        <p class="eyebrow">{{ job.dates }} · {{ job.location }}</p>
+        <p class="eyebrow">{{ job.dates }}</p>
         <h2 class="job-role-h">{{ job.title }}</h2>
-        <p class="job-co">{% if job.url %}<a class="company-link" href="{{ job.url }}" target="_blank" rel="noopener">{{ job.company }}</a>{% else %}{{ job.company }}{% endif %}</p>
+        <p class="job-co">{% if job.url %}<a class="company-link" href="{{ job.url }}" target="_blank" rel="noopener">{{ job.company }}</a>{% else %}{{ job.company }}{% endif %}{% if job.location != "" %}<span class="job-loc"> &middot; {{ job.location }}</span>{% endif %}</p>
       </div>
     </div>
     <p>{{ job.summary }}</p>

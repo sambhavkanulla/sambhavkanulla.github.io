@@ -546,3 +546,4 @@ body.show-dock { padding-bottom: 76px; }
 .timeline .job-co .company-link:hover { color: var(--accent-2); }
 .timeline .job-head { margin-bottom: 14px; }
 @media (max-width: 640px) { .timeline h2.job-role-h { font-size: 1.25rem; } .timeline .job-co { font-size: 1rem; } }
+.timeline .job-loc { font-weight: 500; color: var(--muted); }
