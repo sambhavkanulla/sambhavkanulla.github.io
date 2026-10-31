@@ -15,10 +15,10 @@ permalink: /experience/
       {% endif %}
       <div>
         <p class="eyebrow">{{ job.dates }} · {{ job.location }}</p>
-        <h2>{% if job.url %}<a class="company-link" href="{{ job.url }}" target="_blank" rel="noopener">{{ job.company }}</a>{% else %}{{ job.company }}{% endif %}</h2>
+        <h2 class="job-role-h">{{ job.title }}</h2>
+        <p class="job-co">{% if job.url %}<a class="company-link" href="{{ job.url }}" target="_blank" rel="noopener">{{ job.company }}</a>{% else %}{{ job.company }}{% endif %}</p>
       </div>
     </div>
-    <p class="job-title">{{ job.title }}</p>
     <p>{{ job.summary }}</p>
     {% if job.highlights.size > 0 %}
     <ul>

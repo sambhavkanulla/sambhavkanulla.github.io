@@ -538,3 +538,11 @@ body.show-dock { padding-bottom: 76px; }
   .ph-career-dates { text-align: left; }
   .site-footer { margin-top: 40px; }
 }
+
+/* Experience: role first, company second */
+.timeline h2.job-role-h { font-size: 1.5rem; line-height: 1.25; margin: 0.1em 0 0; letter-spacing: -0.02em; }
+.timeline .job-co { margin: 6px 0 0; font-size: 1.05rem; font-weight: 600; color: var(--muted); }
+.timeline .job-co .company-link { color: var(--accent); }
+.timeline .job-co .company-link:hover { color: var(--accent-2); }
+.timeline .job-head { margin-bottom: 14px; }
+@media (max-width: 640px) { .timeline h2.job-role-h { font-size: 1.25rem; } .timeline .job-co { font-size: 1rem; } }
