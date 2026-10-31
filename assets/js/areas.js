@@ -34,7 +34,9 @@
   var valid = keys.indexOf(h) > -1;
   apply(valid ? h : 'all', false);
   if (valid && document.querySelector('.hero')) {
-    window.addEventListener('load', function () { nav.scrollIntoView({ block: 'start' }); });
+    var go = function () { var r = nav.getBoundingClientRect(); window.scrollTo(0, Math.max(0, window.scrollY + r.top - 20)); };
+    go();
+    window.addEventListener('load', function () { go(); setTimeout(go, 250); });
   }
   nav.addEventListener('click', function (e) {
     var b = e.target.closest ? e.target.closest('button[data-area]') : null;
