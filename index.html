@@ -11,9 +11,9 @@ permalink: /
   <hr class="rule">
   {% if L.headline != "" %}<p class="ph-headline">{{ L.headline }}</p>{% endif %}
   <p class="ph-philosophy">{{ L.philosophy }}</p>
-  <ul class="domains ph-domains" aria-label="Domain areas">
-    {% for line in p.keywords %}{% assign parts = line | split: "|" %}{% for part in parts %}<li>{{ part | strip }}</li>{% endfor %}{% endfor %}
-  </ul>
+  <div class="ph-domain-rows" aria-label="Domain areas">
+    {% for line in p.keywords %}<ul class="domains">{% assign parts = line | split: "|" %}{% for part in parts %}<li>{{ part | strip }}</li>{% endfor %}</ul>{% endfor %}
+  </div>
   <p class="edu">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11.5V16c0 1.4 2.7 3 6 3s6-1.6 6-3v-4.5"/><path d="M22 9v6"/></svg>
     {% for e in p.education %}<span>{{ e }}</span>{% endfor %}

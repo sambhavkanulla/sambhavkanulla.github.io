@@ -377,3 +377,6 @@ main > section.area > h2 { align-items: center; }
 .ph-num-top { margin-bottom: 16px; }
 .ph-number { padding: 24px 22px; }
 @media (max-width: 760px) { .ph-num-top .ico { width: auto; height: auto; } .ph-num-top .ico svg { width: 24px; height: 24px; } .ph-number { padding: 18px 16px; } }
+
+.ph-domain-rows { margin-top: 24px; display: grid; gap: 8px; }
+.ph-domain-rows .domains { margin: 0; }
