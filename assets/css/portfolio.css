@@ -494,3 +494,8 @@ body.show-name .brand-name { opacity: 1; max-width: 260px; }
   body { padding-bottom: 76px; }
 }
 @media (min-width: 1160px) and (max-width: 1359px) { .dock { right: 10px; } }
+
+/* sticky contact dock appears once the hero buttons scroll out of view */
+.dock { opacity: 0; visibility: hidden; pointer-events: none; transition: opacity 0.25s ease, visibility 0.25s; }
+body.show-dock .dock { opacity: 1; visibility: visible; pointer-events: auto; }
+@media (max-width: 1159px) { body { padding-bottom: 0; } body.show-dock { padding-bottom: 76px; } }

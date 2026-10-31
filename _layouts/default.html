@@ -37,6 +37,9 @@
 <script>
 (function () {
   var b = document.body, h = document.querySelector('.ph-hero .name, .hero .name');
+  var c = document.querySelector('.hero-cta');
+  if (c && 'IntersectionObserver' in window) new IntersectionObserver(function (e) { b.classList.toggle('show-dock', !e[0].isIntersecting && e[0].boundingClientRect.top < 0); }, { rootMargin: '-64px 0px 0px 0px' }).observe(c);
+  else if (c) b.classList.add('show-dock');
   if (!h || !('IntersectionObserver' in window)) { b.classList.add('show-name'); return; }
   new IntersectionObserver(function (e) { b.classList.toggle('show-name', !e[0].isIntersecting); }, { rootMargin: '-64px 0px 0px 0px' }).observe(h);
 })();
