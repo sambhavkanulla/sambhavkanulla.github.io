@@ -14,10 +14,8 @@
     <div class="wrap header-inner">
       <a class="brand" href="{{ '/' | relative_url }}">{{ site.data.profile.name }}</a>
       <nav class="nav">
-        <a href="{{ '/case-studies/' | relative_url }}">Case studies</a>
-        <a href="{{ '/experience/' | relative_url }}">Experience</a>
-        <a href="{{ '/about/' | relative_url }}">About</a>
-        <a class="nav-cta" href="{{ '/contact/' | relative_url }}">Contact</a>
+        <a href="{{ '/case-studies/' | relative_url }}"{% if page.url contains '/case-studies/' %} class="active" aria-current="page"{% endif %}>Case studies</a>
+        <a href="{{ '/experience/' | relative_url }}"{% if page.url contains '/experience/' %} class="active" aria-current="page"{% endif %}>Experience</a>
       </nav>
     </div>
   </header>
