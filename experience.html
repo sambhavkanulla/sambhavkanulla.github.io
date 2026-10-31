@@ -7,8 +7,15 @@ permalink: /experience/
 <div class="timeline">
 {% for job in site.data.experience %}
   <section class="job">
-    <p class="eyebrow">{{ job.dates }} · {{ job.location }}</p>
-    <h2>{{ job.company }}</h2>
+    <div class="job-head">
+      {% if job.logo and job.logo != "" %}
+      {% if job.url %}<a class="logo-link" href="{{ job.url }}" target="_blank" rel="noopener"><img class="logo" src="{{ job.logo | relative_url }}" alt="{{ job.company }} logo"></a>{% else %}<img class="logo" src="{{ job.logo | relative_url }}" alt="{{ job.company }} logo">{% endif %}
+      {% endif %}
+      <div>
+        <p class="eyebrow">{{ job.dates }} · {{ job.location }}</p>
+        <h2>{% if job.url %}<a class="company-link" href="{{ job.url }}" target="_blank" rel="noopener">{{ job.company }}</a>{% else %}{{ job.company }}{% endif %}</h2>
+      </div>
+    </div>
     <p class="job-title">{{ job.title }}</p>
     <p>{{ job.summary }}</p>
     {% if job.highlights.size > 0 %}

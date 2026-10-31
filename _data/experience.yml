@@ -2,10 +2,13 @@
 # YOUR EXPERIENCE TIMELINE  -  newest role first
 # To add a new role: copy one whole block (from the "- company" line
 # down to the last bullet), paste it at the TOP, and change the text.
+# "url" makes the company name a link. "logo" is an optional picture path, e.g. "/assets/logos/tmrw.png".
 # "case_studies" lists the file names (without .md) of related case studies.
 # ------------------------------------------------------------
 
 - company: "TMRW, House of Brands (ABFRL Group)"
+  url: "https://www.tmrw.in/"
+  logo: ""
   location: "Bangalore, India"
   title: "Associate Director of Product"
   dates: "Apr 2025 - Present"
@@ -25,6 +28,8 @@
     - ai-operations-optimizer-and-otb
 
 - company: "Coupang Eats"
+  url: "https://www.coupangeats.com/"
+  logo: ""
   location: "Seoul, South Korea"
   title: "Group Product Manager"
   dates: "Apr 2022 - Apr 2025"
@@ -40,6 +45,8 @@
     - coupang-optimized-delivery-and-wow
 
 - company: "Purplle.com"
+  url: "https://www.purplle.com/"
+  logo: ""
   location: "Mumbai, India"
   title: "Senior Product Manager"
   dates: "Nov 2019 - Apr 2022"
@@ -54,6 +61,8 @@
   case_studies: []
 
 - company: "Reliance Jio / Digital / Retail"
+  url: "https://www.jio.com/"
+  logo: ""
   location: "Mumbai, India"
   title: "Product Manager"
   dates: "Apr 2017 - Nov 2019"
