@@ -46,11 +46,21 @@ title: "Product Leader"
 </section>
 
 <section>
-  <h2 class="impact-title">Product impact</h2>
+  <h2 class="impact-title">Value Added with Products</h2>
   <div class="proof">
     {% for item in p.impact %}
     <div class="proof-item">
-      <div class="proof-value">{{ item.value }}</div>
+      <div class="proof-top">
+        <span class="ico ico-{{ item.icon }}" aria-hidden="true">
+          {% case item.icon %}
+          {% when "down" %}<svg viewBox="0 0 24 24"><path d="M3 7l6 6 4-4 8 8"/><path d="M15 17h6v-6"/></svg>
+          {% when "save" %}<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8.5 8.5h7M8.5 12h7M10 8.5c3.6 0 3.6 4.6 0 4.6l4.4 3.6"/></svg>
+          {% when "scale" %}<svg viewBox="0 0 24 24"><path d="M5 20V12M12 20V5M19 20V9"/></svg>
+          {% else %}<svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>
+          {% endcase %}
+        </span>
+        <div class="proof-value">{{ item.value }}</div>
+      </div>
       <div class="proof-label">{{ item.label }}</div>
     </div>
     {% endfor %}
@@ -60,7 +70,7 @@ title: "Product Leader"
 <section>
   <h2>Featured case studies</h2>
   {% assign studies = site.case_studies | sort: "order" %}
-  <div class="cards">
+  <div class="cards featured-cards">
     {% for cs in studies %}{% if cs.featured %}
     <a class="card" href="{{ cs.url | relative_url }}">
         <h3>{{ cs.title }}</h3>

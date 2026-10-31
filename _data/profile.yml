@@ -33,23 +33,32 @@ linkedin: "https://www.linkedin.com/in/sambhavkanulla/"
 # Resume button. Leave as "" to hide the button.
 resume_file: "/Sambhav_Kanulla_Resume.pdf"
 
-# Impact highlight cards on the Home page (a big number and what it means)
+# "Value Added with Products" cards on the Home page.
+# icon: up (increased) | down (reduced) | save (saved/released) | scale (scale handled)
 impact:
   - value: "7x"
+    icon: "up"
     label: "sales growth in 3 quarters"
   - value: "3x"
+    icon: "up"
     label: "revenue growth for a D2C fashion brand"
   - value: "₹3 Cr"
+    icon: "save"
     label: "saved in logistics costs (about $300k)"
   - value: "32%"
+    icon: "save"
     label: "working capital released through inventory planning"
   - value: "-90%"
+    icon: "down"
     label: "customer support tickets"
   - value: "-12 min"
+    icon: "down"
     label: "average delivery time"
   - value: "2.5M+"
+    icon: "scale"
     label: "orders a day on products I owned"
   - value: "6M+"
+    icon: "scale"
     label: "launch vouchers and leads managed"
 
 # The About page
